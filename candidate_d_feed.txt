@@ -40,8 +40,13 @@ Getaway Charlie BSP 6.18 LOSER Gowran Park 2nd Oct
 Moonfall BSP 5.40 LOSER Ascot 3rd Oct
 Double Parked BSP 5.30 LOSER Redcar 3rd Oct
 Smallcraftwarning BSP 5.40 WINNER Gowran Park 3rd Oct
-Downloading dwbfpricesukwin05102026.csv
-Downloading dwbfpricesirewin05102026.csv
 
 2026-10-04
 James The Brave BSP 5.60 WINNER Killarney 4th Oct
+Downloading dwbfpricesukwin06102026.csv
+Downloading dwbfpricesirewin06102026.csv
+
+2026-10-05
+Andesite BSP 6.00 LOSER Pontefract 5th Oct
+Goldfinder BSP 5.70 LOSER Wolverhampton 5th Oct
+Wie Wunderbar BSP 5.50 LOSER Killarney 5th Oct
