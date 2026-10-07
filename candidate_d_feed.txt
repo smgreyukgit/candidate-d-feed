@@ -43,10 +43,15 @@ Smallcraftwarning BSP 5.40 WINNER Gowran Park 3rd Oct
 
 2026-10-04
 James The Brave BSP 5.60 WINNER Killarney 4th Oct
-Downloading dwbfpricesukwin06102026.csv
-Downloading dwbfpricesirewin06102026.csv
 
 2026-10-05
 Andesite BSP 6.00 LOSER Pontefract 5th Oct
 Goldfinder BSP 5.70 LOSER Wolverhampton 5th Oct
 Wie Wunderbar BSP 5.50 LOSER Killarney 5th Oct
+Downloading dwbfpricesukwin07102026.csv
+Downloading dwbfpricesirewin07102026.csv
+
+2026-10-06
+Ma Fille De Reve BSP 5.81 LOSER Leicester 6th Oct
+Launceston BSP 5.80 WINNER Brighton 6th Oct
+Inca BSP 5.51 WINNER Huntingdon 6th Oct
