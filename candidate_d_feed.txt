@@ -57,10 +57,19 @@ Inca BSP 5.51 WINNER Huntingdon 6th Oct
 2026-10-07
 Norman Invasion BSP 5.92 LOSER Nottingham 7th Oct
 Del Corso BSP 5.61 LOSER Nottingham 7th Oct
-Downloading dwbfpricesukwin09102026.csv
-Downloading dwbfpricesirewin09102026.csv
 
 2026-10-08
 Flying Moonlight BSP 6.00 LOSER Ayr 8th Oct
 Queen Aethelflaed BSP 5.66 LOSER Thurles 8th Oct
 The Blue Panther BSP 6.48 LOSER Thurles 8th Oct
+Downloading dwbfpricesukwin10102026.csv
+Downloading dwbfpricesirewin10102026.csv
+
+2026-10-09
+Siena Storm BSP 5.44 LOSER Newmarket 9th Oct
+Tolstoy BSP 6.40 LOSER York 9th Oct
+Henfield BSP 5.33 LOSER Kempton 9th Oct
+Jaminska BSP 5.87 LOSER Chepstow 9th Oct
+Aiteall BSP 6.20 LOSER Dundalk 9th Oct
+Soldier Saint BSP 5.40 LOSER Downpatrick 9th Oct
+Final Ascent BSP 6.40 LOSER Dundalk 9th Oct
