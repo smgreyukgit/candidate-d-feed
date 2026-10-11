@@ -62,8 +62,6 @@ Del Corso BSP 5.61 LOSER Nottingham 7th Oct
 Flying Moonlight BSP 6.00 LOSER Ayr 8th Oct
 Queen Aethelflaed BSP 5.66 LOSER Thurles 8th Oct
 The Blue Panther BSP 6.48 LOSER Thurles 8th Oct
-Downloading dwbfpricesukwin10102026.csv
-Downloading dwbfpricesirewin10102026.csv
 
 2026-10-09
 Siena Storm BSP 5.44 LOSER Newmarket 9th Oct
@@ -73,3 +71,13 @@ Jaminska BSP 5.87 LOSER Chepstow 9th Oct
 Aiteall BSP 6.20 LOSER Dundalk 9th Oct
 Soldier Saint BSP 5.40 LOSER Downpatrick 9th Oct
 Final Ascent BSP 6.40 LOSER Dundalk 9th Oct
+Downloading dwbfpricesukwin11102026.csv
+Downloading dwbfpricesirewin11102026.csv
+
+2026-10-10
+Sea Lantern BSP 6.22 LOSER Newmarket 10th Oct
+Frankies Dream BSP 5.90 LOSER York 10th Oct
+Cut A Dash BSP 5.70 WINNER York 10th Oct
+Potters Prince BSP 6.11 LOSER Southwell 10th Oct
+Apache Outlaw BSP 5.80 LOSER Naas 10th Oct
+Back Down Under BSP 5.63 LOSER Naas 10th Oct
