@@ -71,8 +71,6 @@ Jaminska BSP 5.87 LOSER Chepstow 9th Oct
 Aiteall BSP 6.20 LOSER Dundalk 9th Oct
 Soldier Saint BSP 5.40 LOSER Downpatrick 9th Oct
 Final Ascent BSP 6.40 LOSER Dundalk 9th Oct
-Downloading dwbfpricesukwin11102026.csv
-Downloading dwbfpricesirewin11102026.csv
 
 2026-10-10
 Sea Lantern BSP 6.22 LOSER Newmarket 10th Oct
@@ -81,3 +79,9 @@ Cut A Dash BSP 5.70 WINNER York 10th Oct
 Potters Prince BSP 6.11 LOSER Southwell 10th Oct
 Apache Outlaw BSP 5.80 LOSER Naas 10th Oct
 Back Down Under BSP 5.63 LOSER Naas 10th Oct
+Downloading dwbfpricesukwin12102026.csv
+Downloading dwbfpricesirewin12102026.csv
+
+2026-10-11
+Guys Girl BSP 5.71 LOSER Naas 11th Oct
+Vanir BSP 5.80 WINNER Naas 11th Oct
