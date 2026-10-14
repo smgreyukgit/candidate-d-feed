@@ -83,11 +83,15 @@ Back Down Under BSP 5.63 LOSER Naas 10th Oct
 2026-10-11
 Guys Girl BSP 5.71 LOSER Naas 11th Oct
 Vanir BSP 5.80 WINNER Naas 11th Oct
-Downloading dwbfpricesukwin13102026.csv
-Downloading dwbfpricesirewin13102026.csv
 
 2026-10-12
 Organ BSP 6.23 WINNER Kempton 12th Oct
 Ice Show BSP 5.87 LOSER Newcastle 12th Oct
 Big Bill BSP 5.50 LOSER Roscommon 12th Oct
 Contrary To Law BSP 5.33 WINNER Roscommon 12th Oct
+Downloading dwbfpricesukwin14102026.csv
+Downloading dwbfpricesirewin14102026.csv
+
+2026-10-13
+Flight Control BSP 5.82 LOSER Leicester 13th Oct
+Soldier Saint BSP 5.40 LOSER Punchestown 13th Oct
