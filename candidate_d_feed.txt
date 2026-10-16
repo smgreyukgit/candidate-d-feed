@@ -93,8 +93,13 @@ Contrary To Law BSP 5.33 WINNER Roscommon 12th Oct
 2026-10-13
 Flight Control BSP 5.82 LOSER Leicester 13th Oct
 Soldier Saint BSP 5.40 LOSER Punchestown 13th Oct
-Downloading dwbfpricesukwin15102026.csv
-Downloading dwbfpricesirewin15102026.csv
 
 2026-10-14
 Chalk Mountain BSP 5.44 LOSER Kempton 14th Oct
+Downloading dwbfpricesukwin16102026.csv
+Downloading dwbfpricesirewin16102026.csv
+
+2026-10-15
+Orderoftheday BSP 5.30 LOSER Perth 15th Oct
+Jordan Breeze BSP 5.80 LOSER Curragh 15th Oct
+Dark Ace BSP 5.91 LOSER Curragh 15th Oct
