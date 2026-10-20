@@ -110,8 +110,11 @@ Tribal Moon BSP 5.60 LOSER Dundalk 16th Oct
 2026-10-17
 Scoville BSP 6.20 LOSER Ascot 17th Oct
 Western Opera BSP 5.70 LOSER Limerick 17th Oct
-Downloading dwbfpricesukwin19102026.csv
-Downloading dwbfpricesirewin19102026.csv
 
 2026-10-18
 Zaraahmando BSP 5.30 WINNER Leopardstown 18th Oct
+Downloading dwbfpricesukwin20102026.csv
+Downloading dwbfpricesirewin20102026.csv
+
+2026-10-19
+Venetian Star BSP 5.90 WINNER Gowran Park 19th Oct
