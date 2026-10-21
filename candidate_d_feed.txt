@@ -113,8 +113,12 @@ Western Opera BSP 5.70 LOSER Limerick 17th Oct
 
 2026-10-18
 Zaraahmando BSP 5.30 WINNER Leopardstown 18th Oct
-Downloading dwbfpricesukwin20102026.csv
-Downloading dwbfpricesirewin20102026.csv
 
 2026-10-19
 Venetian Star BSP 5.90 WINNER Gowran Park 19th Oct
+Downloading dwbfpricesukwin21102026.csv
+Downloading dwbfpricesirewin21102026.csv
+
+2026-10-20
+Boubyan BSP 5.80 LOSER Newcastle 20th Oct
+Second Fiddle BSP 5.57 LOSER Newcastle 20th Oct
