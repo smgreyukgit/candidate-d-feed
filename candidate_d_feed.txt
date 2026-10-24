@@ -124,10 +124,17 @@ Second Fiddle BSP 5.57 LOSER Newcastle 20th Oct
 2026-10-21
 Cilician BSP 5.70 LOSER Newmarket 21st Oct
 Coincidental Glory BSP 6.20 WINNER Navan 21st Oct
-Downloading dwbfpricesukwin23102026.csv
-Downloading dwbfpricesirewin23102026.csv
 
 2026-10-22
 Rickety Gate BSP 5.48 LOSER Carlisle 22nd Oct
 Atmosphere BSP 5.56 LOSER Newmarket 22nd Oct
 Silly Mongoose BSP 5.78 LOSER Clonmel 22nd Oct
+Downloading dwbfpricesukwin24102026.csv
+Downloading dwbfpricesirewin24102026.csv
+
+2026-10-23
+Hauteluce BSP 5.30 LOSER Wolverhampton 23rd Oct
+Ernies Valentine BSP 6.00 LOSER Wolverhampton 23rd Oct
+Atlantic Wonder BSP 5.97 LOSER Sligo 23rd Oct
+Diaduit Buachaill BSP 6.11 LOSER Sligo 23rd Oct
+Ocean Of Dreams BSP 6.40 WINNER Sligo 23rd Oct
