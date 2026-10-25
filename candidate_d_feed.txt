@@ -129,8 +129,6 @@ Coincidental Glory BSP 6.20 WINNER Navan 21st Oct
 Rickety Gate BSP 5.48 LOSER Carlisle 22nd Oct
 Atmosphere BSP 5.56 LOSER Newmarket 22nd Oct
 Silly Mongoose BSP 5.78 LOSER Clonmel 22nd Oct
-Downloading dwbfpricesukwin24102026.csv
-Downloading dwbfpricesirewin24102026.csv
 
 2026-10-23
 Hauteluce BSP 5.30 LOSER Wolverhampton 23rd Oct
@@ -138,3 +136,10 @@ Ernies Valentine BSP 6.00 LOSER Wolverhampton 23rd Oct
 Atlantic Wonder BSP 5.97 LOSER Sligo 23rd Oct
 Diaduit Buachaill BSP 6.11 LOSER Sligo 23rd Oct
 Ocean Of Dreams BSP 6.40 WINNER Sligo 23rd Oct
+Downloading dwbfpricesukwin25102026.csv
+Downloading dwbfpricesirewin25102026.csv
+
+2026-10-24
+Anthropologist BSP 6.46 WINNER Southwell 24th Oct
+Love You More BSP 5.40 LOSER Southwell 24th Oct
+Galyx BSP 5.30 LOSER Doncaster 24th Oct
