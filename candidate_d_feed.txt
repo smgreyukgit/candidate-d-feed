@@ -161,8 +161,6 @@ Unico BSP 6.40 LOSER Bath 29th Oct
 Legendsoftheland BSP 5.95 LOSER Bath 29th Oct
 River Glance BSP 6.20 LOSER Stratford 29th Oct
 Arizona Star BSP 5.48 LOSER Punchestown 29th Oct
-Downloading dwbfpricesukwin31102026.csv
-Downloading dwbfpricesirewin31102026.csv
 
 2026-10-30
 Kally Des Bruyeres BSP 5.60 LOSER Uttoxeter 30th Oct
@@ -170,3 +168,9 @@ Yaajooz BSP 5.66 LOSER Newcastle 30th Oct
 Fenlander BSP 5.80 LOSER Newmarket 30th Oct
 Dark Lieutenant BSP 6.40 LOSER Down Royal 30th Oct
 Suir Monad BSP 5.61 LOSER Dundalk 30th Oct
+Downloading dwbfpricesukwin01112026.csv
+Downloading dwbfpricesirewin01112026.csv
+
+2026-10-31
+Kennington BSP 5.46 LOSER Newmarket 31st Oct
+Haas Boy BSP 5.30 LOSER Ascot 31st Oct
