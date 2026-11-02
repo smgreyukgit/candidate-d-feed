@@ -168,9 +168,13 @@ Yaajooz BSP 5.66 LOSER Newcastle 30th Oct
 Fenlander BSP 5.80 LOSER Newmarket 30th Oct
 Dark Lieutenant BSP 6.40 LOSER Down Royal 30th Oct
 Suir Monad BSP 5.61 LOSER Dundalk 30th Oct
-Downloading dwbfpricesukwin01112026.csv
-Downloading dwbfpricesirewin01112026.csv
 
 2026-10-31
 Kennington BSP 5.46 LOSER Newmarket 31st Oct
 Haas Boy BSP 5.30 LOSER Ascot 31st Oct
+Downloading dwbfpricesukwin02112026.csv
+Downloading dwbfpricesirewin02112026.csv
+
+2026-11-01
+Check The Score BSP 5.70 LOSER Huntingdon 1st Nov
+Lady Mary Heath BSP 5.90 LOSER Curragh 1st Nov
