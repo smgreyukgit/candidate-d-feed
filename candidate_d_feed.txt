@@ -176,8 +176,13 @@ Haas Boy BSP 5.30 LOSER Ascot 31st Oct
 2026-11-01
 Check The Score BSP 5.70 LOSER Huntingdon 1st Nov
 Lady Mary Heath BSP 5.90 LOSER Curragh 1st Nov
-Downloading dwbfpricesukwin03112026.csv
-Downloading dwbfpricesirewin03112026.csv
 
 2026-11-02
 Law Of Supply BSP 5.40 LOSER Southwell 2nd Nov
+
+2026-11-03
+
+2026-11-04
+Borjina BSP 5.54 LOSER Nottingham 4th Nov
+I Heard A Rumour BSP 5.60 WINNER Chepstow 4th Nov
+Dancing Steve BSP 5.70 LOSER Dundalk 4th Nov
