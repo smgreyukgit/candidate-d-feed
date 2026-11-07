@@ -186,10 +186,13 @@ Law Of Supply BSP 5.40 LOSER Southwell 2nd Nov
 Borjina BSP 5.54 LOSER Nottingham 4th Nov
 I Heard A Rumour BSP 5.60 WINNER Chepstow 4th Nov
 Dancing Steve BSP 5.70 LOSER Dundalk 4th Nov
-Downloading dwbfpricesukwin06112026.csv
-Downloading dwbfpricesirewin06112026.csv
 
 2026-11-05
 Dark Side Thunder BSP 6.00 WINNER Chelmsford City 5th Nov
 Prince Of Calypso BSP 5.40 LOSER Southwell 5th Nov
 Stily BSP 5.60 LOSER Clonmel 5th Nov
+Downloading dwbfpricesukwin07112026.csv
+Downloading dwbfpricesirewin07112026.csv
+
+2026-11-06
+Pal Joey BSP 6.00 LOSER Newcastle 6th Nov
