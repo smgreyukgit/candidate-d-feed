@@ -194,10 +194,12 @@ Stily BSP 5.60 LOSER Clonmel 5th Nov
 
 2026-11-06
 Pal Joey BSP 6.00 LOSER Newcastle 6th Nov
-Downloading dwbfpricesukwin08112026.csv
-Downloading dwbfpricesirewin08112026.csv
 
 2026-11-07
 Amberelli BSP 5.45 WINNER Uttoxeter 7th Nov
 Flash Harry BSP 6.00 LOSER Doncaster 7th Nov
 Lester Mail BSP 5.55 LOSER Kelso 7th Nov
+Downloading dwbfpricesukwin09112026.csv
+Downloading dwbfpricesirewin09112026.csv
+
+2026-11-08
