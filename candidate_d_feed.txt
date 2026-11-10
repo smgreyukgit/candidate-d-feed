@@ -199,7 +199,10 @@ Pal Joey BSP 6.00 LOSER Newcastle 6th Nov
 Amberelli BSP 5.45 WINNER Uttoxeter 7th Nov
 Flash Harry BSP 6.00 LOSER Doncaster 7th Nov
 Lester Mail BSP 5.55 LOSER Kelso 7th Nov
-Downloading dwbfpricesukwin09112026.csv
-Downloading dwbfpricesirewin09112026.csv
 
 2026-11-08
+Downloading dwbfpricesukwin10112026.csv
+Downloading dwbfpricesirewin10112026.csv
+
+2026-11-09
+Western Model BSP 6.01 WINNER Punchestown 9th Nov
