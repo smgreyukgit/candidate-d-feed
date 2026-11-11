@@ -201,8 +201,10 @@ Flash Harry BSP 6.00 LOSER Doncaster 7th Nov
 Lester Mail BSP 5.55 LOSER Kelso 7th Nov
 
 2026-11-08
-Downloading dwbfpricesukwin10112026.csv
-Downloading dwbfpricesirewin10112026.csv
 
 2026-11-09
 Western Model BSP 6.01 WINNER Punchestown 9th Nov
+Downloading dwbfpricesukwin11112026.csv
+Downloading dwbfpricesirewin11112026.csv
+
+2026-11-10
