@@ -204,7 +204,10 @@ Lester Mail BSP 5.55 LOSER Kelso 7th Nov
 
 2026-11-09
 Western Model BSP 6.01 WINNER Punchestown 9th Nov
-Downloading dwbfpricesukwin11112026.csv
-Downloading dwbfpricesirewin11112026.csv
 
 2026-11-10
+Downloading dwbfpricesukwin12112026.csv
+Downloading dwbfpricesirewin12112026.csv
+
+2026-11-11
+Go Out BSP 5.51 LOSER Dundalk 11th Nov
