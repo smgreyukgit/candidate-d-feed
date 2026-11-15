@@ -211,7 +211,10 @@ Western Model BSP 6.01 WINNER Punchestown 9th Nov
 Go Out BSP 5.51 LOSER Dundalk 11th Nov
 
 2026-11-12
-Downloading dwbfpricesukwin14112026.csv
-Downloading dwbfpricesirewin14112026.csv
 
 2026-11-13
+Downloading dwbfpricesukwin15112026.csv
+Downloading dwbfpricesirewin15112026.csv
+
+2026-11-14
+Miners Bridge BSP 5.30 LOSER Navan 14th Nov
