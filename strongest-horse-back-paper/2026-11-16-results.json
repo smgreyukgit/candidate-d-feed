@@ -1,0 +1,128 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK WIN, PAPER ONLY)",
+  "date": "2026-11-16",
+  "reconciled_at_uk": "2026-11-16T21:02:30+00:00",
+  "original_locked_picks": "strongest-horse-back-paper/2026-11-16-picks.json",
+  "settlement_basis": "Verified race finishing positions; Betfair BSP unavailable, so monetary loss can be settled exactly for losing BACK bets without odds. No executable Betfair matched price is claimed. Winning selections require verified BSP to compute P/L.",
+  "races": [
+    {
+      "horse": "Kamille Au Kanada",
+      "rank": 1,
+      "time_uk": "14:15",
+      "course": "Plumpton",
+      "outcome": "LOSS",
+      "position": 2,
+      "winner": "Norman Fletcher",
+      "official_status": "Weighed In",
+      "reference_decimal": 3,
+      "betfair_bsp": null,
+      "source": "https://www.sportinglife.com/racing/results/2026-11-16/plumpton/948699/anyone-want-a-drink-anyone-handicap-hurdle"
+    },
+    {
+      "horse": "R P McMurphy",
+      "rank": 3,
+      "time_uk": "19:30",
+      "course": "Wolverhampton",
+      "outcome": "LOSS",
+      "position": 12,
+      "winner": "Galba",
+      "official_status": "Weighed In",
+      "reference_decimal": 5,
+      "betfair_bsp": null,
+      "source": "https://www.sportinglife.com/racing/results/2026-11-16/wolverhampton/948708/arc-all-weather-bonus-is-back-handicap"
+    },
+    {
+      "horse": "Saxophonic",
+      "rank": 2,
+      "time_uk": "20:30",
+      "course": "Wolverhampton",
+      "outcome": "PENDING",
+      "position": null,
+      "winner": null,
+      "official_status": "Result not independently verified at evening reconciliation",
+      "reference_decimal": 2.2,
+      "betfair_bsp": null,
+      "source": "https://www.sportinglife.com/racing/racecards/2026-11-16/wolverhampton/racecard/948710/make-the-move-to-midnite-handicap"
+    }
+  ],
+  "portfolios": {
+    "NAP-only": {
+      "flat": {
+        "settled_bets": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl_gbp": -10,
+        "bank_gbp": 890,
+        "next_stake_gbp": 10,
+        "max_drawdown_gbp": 10,
+        "longest_loss_streak": 1,
+        "roi_pct": -100
+      },
+      "x1.5_cap30": {
+        "settled_bets": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl_gbp": -10,
+        "bank_gbp": 890,
+        "next_stake_gbp": 15,
+        "max_drawdown_gbp": 10,
+        "longest_loss_streak": 1,
+        "roi_pct": -100
+      },
+      "x2_cap40": {
+        "settled_bets": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl_gbp": -10,
+        "bank_gbp": 890,
+        "next_stake_gbp": 20,
+        "max_drawdown_gbp": 10,
+        "longest_loss_streak": 1,
+        "roi_pct": -100
+      }
+    },
+    "Top-3": {
+      "flat": {
+        "settled_bets": 2,
+        "wins": 0,
+        "losses": 2,
+        "pnl_gbp": -20,
+        "bank_gbp": 880,
+        "committed_next_stake_pending_gbp": 10,
+        "max_drawdown_gbp": 20,
+        "longest_loss_streak": 2,
+        "roi_pct": -100
+      },
+      "x1.5_cap30": {
+        "settled_bets": 2,
+        "wins": 0,
+        "losses": 2,
+        "pnl_gbp": -25,
+        "bank_gbp": 875,
+        "committed_next_stake_pending_gbp": 22.5,
+        "max_drawdown_gbp": 25,
+        "longest_loss_streak": 2,
+        "roi_pct": -100
+      },
+      "x2_cap40": {
+        "settled_bets": 2,
+        "wins": 0,
+        "losses": 2,
+        "pnl_gbp": -30,
+        "bank_gbp": 870,
+        "committed_next_stake_pending_gbp": 40,
+        "max_drawdown_gbp": 30,
+        "longest_loss_streak": 2,
+        "roi_pct": -100
+      }
+    }
+  },
+  "progress": "NAP-only 1/200 settled; Top-3 2/200 settled; Saxophonic pending",
+  "integrity_notes": [
+    "Original picks remain unchanged",
+    "No Betfair BSP independently verified; losses are exact given stake and outcome",
+    "Pending Saxophonic must be settled in chronological order before later Top-3 progression can be finalized",
+    "Today's bookmaker reference prices are not exchange execution prices",
+    "No minimum acceptable odds thresholds were recorded in the locked picks, so value qualification cannot be audited for day one."
+  ]
+}
