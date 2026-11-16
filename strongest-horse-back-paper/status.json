@@ -1,0 +1,38 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking",
+  "as_of_uk": "2026-11-16T21:02:30+00:00",
+  "last_day": "2026-11-16",
+  "results_file": "2026-11-16-results.json",
+  "unsettled": [
+    "2026-11-16 Saxophonic Wolverhampton 20:30"
+  ],
+  "nap_only": {
+    "flat": {
+      "bank_gbp": 890,
+      "next_stake_gbp": 10
+    },
+    "x1_5": {
+      "bank_gbp": 890,
+      "next_stake_gbp": 15
+    },
+    "x2": {
+      "bank_gbp": 890,
+      "next_stake_gbp": 20
+    }
+  },
+  "top3": {
+    "flat": {
+      "bank_gbp": 880,
+      "pending_stake_gbp": 10
+    },
+    "x1_5": {
+      "bank_gbp": 875,
+      "pending_stake_gbp": 22.5
+    },
+    "x2": {
+      "bank_gbp": 870,
+      "pending_stake_gbp": 40
+    }
+  },
+  "note": "Top-3 banks are provisional until Saxophonic result settled; no BSP verified. Never overwrite locked picks."
+}
