@@ -213,8 +213,11 @@ Go Out BSP 5.51 LOSER Dundalk 11th Nov
 2026-11-12
 
 2026-11-13
-Downloading dwbfpricesukwin15112026.csv
-Downloading dwbfpricesirewin15112026.csv
 
 2026-11-14
 Miners Bridge BSP 5.30 LOSER Navan 14th Nov
+Downloading dwbfpricesukwin16112026.csv
+Downloading dwbfpricesirewin16112026.csv
+
+2026-11-15
+Harry Lowes BSP 5.53 LOSER Cheltenham 15th Nov
