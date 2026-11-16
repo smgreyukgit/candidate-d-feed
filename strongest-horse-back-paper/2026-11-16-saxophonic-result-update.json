@@ -1,0 +1,135 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK-WIN paper)",
+  "date": "2026-11-16",
+  "event": "SAXOPHONIC_RESULT_RECONCILIATION",
+  "original_picks": "strongest-horse-back-paper/2026-11-16-picks.json",
+  "prior_reconciliation": "strongest-horse-back-paper/2026-11-16-results.json",
+  "outcome_source": {
+    "url": "https://www.bbc.co.uk/sport/horse-racing/race/p-1628704",
+    "information": "User reports Saxophonic finished 4th",
+    "verification": "User-provided BBC result; direct BBC page could not be fetched in tool; cross-check finishing order still pending. Settlement as a reported loss, no fabricated BSP."
+  },
+  "newly_reconciled_selection": {
+    "horse": "Saxophonic",
+    "rank": 2,
+    "scheduled_uk": "20:30",
+    "course": "Wolverhampton",
+    "reported_finishing_position": 4,
+    "back_win_outcome": "LOSS",
+    "betfair_bsp": null,
+    "betfair_matched_price": null,
+    "stake_pnl": {
+      "flat": {
+        "stake_gbp": 10,
+        "pnl_gbp": -10
+      },
+      "x1_5_cap30": {
+        "stake_gbp": 22.5,
+        "pnl_gbp": -22.5
+      },
+      "x2_cap40": {
+        "stake_gbp": 40,
+        "pnl_gbp": -40
+      }
+    }
+  },
+  "locked_sequence_in_race_order": [
+    {
+      "horse": "Kamille Au Kanada",
+      "race_time_uk": "14:15",
+      "finishing_position": 2,
+      "win": "LOSS"
+    },
+    {
+      "horse": "R P McMurphy",
+      "race_time_uk": "19:30",
+      "finishing_position": 12,
+      "win": "LOSS"
+    },
+    {
+      "horse": "Saxophonic",
+      "race_time_uk": "20:30",
+      "reported_finishing_position": 4,
+      "win": "LOSS"
+    }
+  ],
+  "banks_gbp": {
+    "NAP-only": {
+      "flat": {
+        "bank": 890,
+        "profit": -10,
+        "settled_count": 1,
+        "wins": 0,
+        "losses": 1,
+        "roi_pct": -100,
+        "max_drawdown": 10,
+        "longest_losing_streak": 1,
+        "next_stake": 10
+      },
+      "x1.5_cap30": {
+        "bank": 890,
+        "profit": -10,
+        "settled_count": 1,
+        "wins": 0,
+        "losses": 1,
+        "roi_pct": -100,
+        "max_drawdown": 10,
+        "longest_losing_streak": 1,
+        "next_stake": 15
+      },
+      "x2_cap40": {
+        "bank": 890,
+        "profit": -10,
+        "settled_count": 1,
+        "wins": 0,
+        "losses": 1,
+        "roi_pct": -100,
+        "max_drawdown": 10,
+        "longest_losing_streak": 1,
+        "next_stake": 20
+      }
+    },
+    "Top-3": {
+      "flat": {
+        "bank": 870,
+        "profit": -30,
+        "settled_count": 3,
+        "wins": 0,
+        "losses": 3,
+        "roi_pct": -100,
+        "max_drawdown": 30,
+        "longest_losing_streak": 3,
+        "next_stake": 10
+      },
+      "x1.5_cap30": {
+        "bank": 852.5,
+        "profit": -47.5,
+        "settled_count": 3,
+        "wins": 0,
+        "losses": 3,
+        "roi_pct": -100,
+        "max_drawdown": 47.5,
+        "longest_losing_streak": 3,
+        "next_stake": 30
+      },
+      "x2_cap40": {
+        "bank": 830,
+        "profit": -70,
+        "settled_count": 3,
+        "wins": 0,
+        "losses": 3,
+        "roi_pct": -100,
+        "max_drawdown": 70,
+        "longest_losing_streak": 3,
+        "next_stake": 40
+      }
+    }
+  },
+  "progress": "1/200 NAP-only and 3/200 Top-3 selections accounted for",
+  "notes": [
+    "The linked BBC result was supplied by the user; direct web fetch was unsuccessful, so independent cross-check remains open.",
+    "A loss on a WIN-only back bet loses the stake regardless of BSP, therefore no exchange prices are needed to calculate these losses.",
+    "All selections, ranks and prediction timestamps from original picks remain untouched.",
+    "No real bets were made; paper-only."
+  ]
+}
