@@ -1,0 +1,70 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK WIN, PAPER ONLY)",
+  "date": "2026-11-16",
+  "prediction_timestamp_uk": "2026-11-16T10:13:39+00:00",
+  "status": "PREDICTIONS_LOCKED_AWAITING_RESULTS",
+  "portfolios": [
+    "NAP-only",
+    "Top-3"
+  ],
+  "staking": {
+    "base_gbp": 10,
+    "flat": "£10 each qualifying selection",
+    "progression_15x": "£10 × 1.5^(consecutive losses), cap £30; winning bet resets to £10",
+    "progression_2x": "£10 × 2^(consecutive losses), cap £40; winning bet resets to £10",
+    "bank_per_independent_portfolio_method_gbp": 900,
+    "commission_on_win_profit": 0.05
+  },
+  "price_and_settlement_method": "Reference quotes below are published bookmaker prices observed in the morning, not verified Betfair Exchange executable prices. Treat them as transparent pre-race anchors, not exchange fills. Calculate main hypothetical settlement at VERIFIED Betfair BSP, tagged BSP_PROXY, even if it differs from these quotes (never use BSP after the result to decide whether to include/exclude a locked selection). Optionally show an alternate fixed-reference-price scenario, clearly labelled non-executable. No retrospective replacement of picks.",
+  "selections": [
+    {
+      "rank": 1,
+      "label": "Official NAP",
+      "race_time_uk": "14:15",
+      "racecourse": "Plumpton",
+      "horse": "Kamille Au Kanada",
+      "race_type": "Class 3 handicap hurdle 2m4f116y",
+      "reference_price_decimal": 3,
+      "reference_fractional": "2/1",
+      "reference_type": "bookmaker comparison",
+      "reference_price_source": "https://www.timeform.com/horse-racing/odds/plumpton/2026-11-16/1415/40/4",
+      "rationale": "Won four of five hurdles; wide-margin course-and-distance win in May; comfortable handicap success at Lingfield six days ago; 5lb claiming rider offsets some penalty burden.",
+      "main_risk": "Quick return, extra 7lb penalty, other recent winners Norman Fletcher and Tune In A Box are unpenalised."
+    },
+    {
+      "rank": 2,
+      "label": "Shadow",
+      "race_time_uk": "20:30",
+      "racecourse": "Wolverhampton (AW)",
+      "horse": "Saxophonic",
+      "race_type": "Class 6 handicap 1m4f51y",
+      "reference_price_decimal": 2.2,
+      "reference_fractional": "6/5",
+      "reference_type": "bookmaker comparison",
+      "reference_price_source": "https://www.timeform.com/horse-racing/odds/wolverhampton/2026-11-16/2030/58/9",
+      "rationale": "Two recent course wins, including over same extended 1m4f; 4lb rise mitigated by 5lb apprentice who previously won on him; recent staying finish encouraging.",
+      "main_risk": "Short odds in 11-runner handicap; Havachoc now 4lb better off from latest meeting."
+    },
+    {
+      "rank": 3,
+      "label": "Shadow",
+      "race_time_uk": "19:30",
+      "racecourse": "Wolverhampton (AW)",
+      "horse": "R P McMurphy",
+      "race_type": "Class 5 handicap 1m142y",
+      "reference_price_decimal": 5,
+      "reference_fractional": "4/1",
+      "reference_type": "bookmaker comparison",
+      "reference_price_source": "https://www.timeform.com/horse-racing/odds/wolverhampton/2026-11-16/1930/58/7",
+      "rationale": "Three-time course-and-distance winner; won at track over slightly longer trip last start; 5lb claimer offsets newly incurred 5lb rating rise.",
+      "main_risk": "Stall 10 in competitive 12-runner field, back down in distance, recent win may attract pace pressure."
+    }
+  ],
+  "operational_rules": "Selections are immutable at original timestamp; settle chronological race times (14:15, 19:30, 20:30) separately per portfolio and staking method. No live trading. Void non-runners. If BSP data unavailable, mark pending, never invent odds or winners. Do not revise historical picks if racing conditions or odds change later; record new details as notes only.",
+  "cited_source_urls": [
+    "https://www.racingpost.com/racecards/2026-11-16/",
+    "https://www.timeform.com/horse-racing/odds/plumpton/2026-11-16/1415/40/4",
+    "https://www.timeform.com/horse-racing/odds/wolverhampton/2026-11-16/1930/58/7",
+    "https://www.timeform.com/horse-racing/odds/wolverhampton/2026-11-16/2030/58/9"
+  ]
+}
