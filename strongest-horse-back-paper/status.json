@@ -32,7 +32,13 @@
       "next_stake_gbp": 40
     }
   },
-  "note": "17 Nov locked NO BET day, no new stakes or settlements. 16 Nov Saxophonic fourth independently cross-checked at sharpbetting.co.uk/horses/saxophonic; 2.10 is SP not BSP. All six paper balances and progression states unchanged. Original picks untouched.",
+  "note": "2026-11-17 NO BET remains immutable, banks unchanged; revised form-first criteria effective for fresh 2026-11-18 selections only. Saxophonic 16 Nov finish independently cross-checked. No real wagering.",
   "prior_results_file": "2026-11-16-saxophonic-result-update.json",
-  "result_crosscheck_pending": []
+  "result_crosscheck_pending": [],
+  "selection_policy": {
+    "version": "v2",
+    "effective_for_new_picks_from_date": "2026-11-18",
+    "rules_file": "strongest-horse-back-paper/selection-policy-v2-2026-11-18.md",
+    "change": "Form-first pre-race picks; published reference prices permitted, Betfair executable price and numeric fair probability no longer prerequisites. Primary monetary simulation uses verified pre-race quoted reference price with illustrative 5% fee, not actual exchange fills; verified BSP is separate secondary series. Do not retroactively modify 16/17 Nov picks."
+  }
 }
