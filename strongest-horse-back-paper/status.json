@@ -1,8 +1,8 @@
 {
   "experiment": "Strongest Horse Bets — Progressive Staking",
-  "as_of_uk": "2026-11-16 evening (supplementary Saxophonic reconciliation)",
-  "last_day": "2026-11-16",
-  "results_file": "2026-11-16-saxophonic-result-update.json",
+  "as_of_uk": "2026-11-17 evening",
+  "last_day": "2026-11-17",
+  "results_file": "2026-11-17-results.json",
   "unsettled": [],
   "nap_only": {
     "flat": {
@@ -32,9 +32,7 @@
       "next_stake_gbp": 40
     }
   },
-  "note": "All three daily selections recorded as losing BACK bets; Saxophonic finishing fourth supplied by user with BBC result link, not independently fetched. No verified BSP and no real bets. All original locked picks preserved. Use appended reconciliation as latest report, maintaining source verification flag.",
-  "prior_results_file": "2026-11-16-results.json",
-  "result_crosscheck_pending": [
-    "2026-11-16 Saxophonic result: user-reported 4th, BBC link provided, direct page access failed; settle paper BACK loss, continue independent verification"
-  ]
+  "note": "17 Nov locked NO BET day, no new stakes or settlements. 16 Nov Saxophonic fourth independently cross-checked at sharpbetting.co.uk/horses/saxophonic; 2.10 is SP not BSP. All six paper balances and progression states unchanged. Original picks untouched.",
+  "prior_results_file": "2026-11-16-saxophonic-result-update.json",
+  "result_crosscheck_pending": []
 }
