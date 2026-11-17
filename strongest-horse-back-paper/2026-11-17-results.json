@@ -1,0 +1,122 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK-WIN, PAPER ONLY)",
+  "date": "2026-11-17",
+  "reconciliation_type": "EVENING_RESULTS_ONLY",
+  "original_locked_picks": "strongest-horse-back-paper/2026-11-17-picks.json",
+  "morning_prediction_timestamp_uk": "2026-11-17T08:55:17+00:00",
+  "morning_decision": "NO_BET_DATA_INSUFFICIENT",
+  "today": {
+    "nap": null,
+    "shadows": [],
+    "selections": 0,
+    "settled_bets": 0,
+    "wins": 0,
+    "losses": 0,
+    "pnl_gbp": 0,
+    "stake_gbp": 0,
+    "roi_pct": null,
+    "roi_note": "Undefined because no stakes placed",
+    "minimum_required_odds": "Not applicable: no qualifying picks",
+    "betfair_bsp": null,
+    "betfair_executable_price": null
+  },
+  "prior_day": {
+    "date": "2026-11-16",
+    "locked_picks": "strongest-horse-back-paper/2026-11-16-picks.json",
+    "settlement_files": [
+      "strongest-horse-back-paper/2026-11-16-results.json",
+      "strongest-horse-back-paper/2026-11-16-saxophonic-result-update.json"
+    ],
+    "three_recorded_losses": true,
+    "saxophonic_fourth_independently_crosschecked": true,
+    "crosscheck_url": "https://sharpbetting.co.uk/horses/saxophonic",
+    "saxophonic_2026_11_16_sp_decimal": 2.1,
+    "sp_is_not_bsp": true,
+    "betfair_bsp": null,
+    "matched_price": null
+  },
+  "portfolios": {
+    "NAP-only": {
+      "flat": {
+        "bank_gbp": 890,
+        "cumulative_pnl_gbp": -10,
+        "cumulative_wins": 0,
+        "cumulative_losses": 1,
+        "cumulative_roi_pct": -100,
+        "max_drawdown_gbp": 10,
+        "longest_loss_streak": 1,
+        "next_stake_gbp": 10
+      },
+      "x1.5_cap30": {
+        "bank_gbp": 890,
+        "cumulative_pnl_gbp": -10,
+        "cumulative_wins": 0,
+        "cumulative_losses": 1,
+        "cumulative_roi_pct": -100,
+        "max_drawdown_gbp": 10,
+        "longest_loss_streak": 1,
+        "next_stake_gbp": 15
+      },
+      "x2_cap40": {
+        "bank_gbp": 890,
+        "cumulative_pnl_gbp": -10,
+        "cumulative_wins": 0,
+        "cumulative_losses": 1,
+        "cumulative_roi_pct": -100,
+        "max_drawdown_gbp": 10,
+        "longest_loss_streak": 1,
+        "next_stake_gbp": 20
+      }
+    },
+    "Top-3": {
+      "flat": {
+        "bank_gbp": 870,
+        "cumulative_pnl_gbp": -30,
+        "cumulative_wins": 0,
+        "cumulative_losses": 3,
+        "cumulative_roi_pct": -100,
+        "max_drawdown_gbp": 30,
+        "longest_loss_streak": 3,
+        "next_stake_gbp": 10
+      },
+      "x1.5_cap30": {
+        "bank_gbp": 852.5,
+        "cumulative_pnl_gbp": -47.5,
+        "cumulative_wins": 0,
+        "cumulative_losses": 3,
+        "cumulative_roi_pct": -100,
+        "max_drawdown_gbp": 47.5,
+        "longest_loss_streak": 3,
+        "next_stake_gbp": 30
+      },
+      "x2_cap40": {
+        "bank_gbp": 830,
+        "cumulative_pnl_gbp": -70,
+        "cumulative_wins": 0,
+        "cumulative_losses": 3,
+        "cumulative_roi_pct": -100,
+        "max_drawdown_gbp": 70,
+        "longest_loss_streak": 3,
+        "next_stake_gbp": 40
+      }
+    }
+  },
+  "progress": {
+    "nap_only_settled": 1,
+    "nap_only_target": 200,
+    "top3_settled": 3,
+    "top3_target": 200
+  },
+  "notes": [
+    "Today NO BET, no new results, no stakes, no change to any bank or progression.",
+    "Saxophonic independently confirmed fourth of 11 at Wolverhampton on 16 Nov 2026 using SharpBetting. Its SP 2.10 is bookmaker SP, not Betfair BSP; do not substitute.",
+    "No verified Betfair BSP or matched price for 16 Nov; losing BACK bets require no odds to calculate P/L.",
+    "Commission of 5% applies only to positive winnings; no wins recorded.",
+    "No new selections added and original picks untouched.",
+    "Candidate D files untouched."
+  ],
+  "source_urls": [
+    "https://github.com/smgreyukgit/candidate-d-feed/blob/main/strongest-horse-back-paper/2026-11-17-picks.json",
+    "https://sharpbetting.co.uk/horses/saxophonic"
+  ]
+}
