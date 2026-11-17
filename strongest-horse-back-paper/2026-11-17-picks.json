@@ -1,0 +1,54 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK WIN, PAPER ONLY)",
+  "date": "2026-11-17",
+  "prediction_timestamp_uk": "2026-11-17T08:55:17+00:00",
+  "status": "NO_BET_DATA_INSUFFICIENT",
+  "nap": null,
+  "shadows": [],
+  "selections": [],
+  "rationale": "UK/Irish meetings and racecards located, but no independently established horse-specific fair win probabilities or verifiable executable Betfair exchange prices at the selection timestamp. Without those cannot objectively establish minimum acceptable odds or value; no qualifying NAP or shadows. Sources also disagree on field sizes and may show unconfirmed jockeys, so do not manufacture picks.",
+  "meetings_reviewed": [
+    "Carlisle",
+    "Limerick",
+    "Southwell (AW)"
+  ],
+  "source_urls": [
+    "https://paddocksense.com/racing/2026-11-17/",
+    "https://www.horseracing.net/southwell/17-11-26",
+    "https://horse.bet/uk/racing-data/racing/carlisle/2026-11-17/",
+    "https://www.attheraces.com/racecards/tomorrow"
+  ],
+  "carry_forward_from": "strongest-horse-back-paper/status.json",
+  "virtual_accounts": {
+    "nap_only": {
+      "flat": {
+        "bank_gbp": 890,
+        "next_stake_gbp": 10
+      },
+      "x1_5": {
+        "bank_gbp": 890,
+        "next_stake_gbp": 15
+      },
+      "x2": {
+        "bank_gbp": 890,
+        "next_stake_gbp": 20
+      }
+    },
+    "top3": {
+      "flat": {
+        "bank_gbp": 870,
+        "next_stake_gbp": 10
+      },
+      "x1_5": {
+        "bank_gbp": 852.5,
+        "next_stake_gbp": 30
+      },
+      "x2": {
+        "bank_gbp": 830,
+        "next_stake_gbp": 40
+      }
+    }
+  },
+  "prior_day_note": "Saxophonic fourth-place outcome is user-sourced from BBC URL; direct independent verification still outstanding; previously recorded paper loss remains unchanged.",
+  "policy": "No retrospective picks; do not backfill when odds become available later. No real betting. No changes to progression on no-bet day."
+}
