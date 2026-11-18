@@ -1,0 +1,170 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK WIN PAPER ONLY)",
+  "date": "2026-11-18",
+  "prediction_timestamp_uk": "2026-11-18T09:02:53+00:00",
+  "timestamp_note": "Automation run began at 09:02:53 Europe/London; sources accessed during the morning research following start. Exact individual page fetch seconds unavailable. All races scheduled after 12:30 UK. Prices may change.",
+  "status": "PRE_RACE_PICKS_LOCKED",
+  "policy_version": "v2",
+  "primary_price_convention": "hypothetical fixed published bookmaker/reference decimal quote locked before racing, 5% illustrative commission on profit, not an actual matched Betfair exchange price; independently sourced BSP secondary only",
+  "selections": [
+    {
+      "rank": 1,
+      "label": "NAP",
+      "horse": "Old Park Star",
+      "race_time_uk": "13:48",
+      "racecourse": "Ffos Las",
+      "race": "Golwg Gwendraeth Beginners' Chase",
+      "class": "3",
+      "distance": "2m",
+      "going": "Good, good to soft in places",
+      "declared_runners": 5,
+      "trainer": "Nicky Henderson",
+      "jockey": "Nico de Boinville",
+      "reference_price_decimal": 1.8,
+      "reference_fractional": "4/5",
+      "reference_type": "published bookmaker/reference Betfred quote, not exchange",
+      "reference_price_source": "https://m.attheraces.com/form/horse/Old-Park-Star/IRE/3710144",
+      "reference_observed_during_run_uk": "2026-11-18 morning after 09:02:53",
+      "betfair_bsp": null,
+      "betfair_matched_price": null,
+      "rationale": "Highest published official rating 155 in field, won Supreme Novices' Hurdle Grade 1 at Cheltenham last start over 2m; 4 hurdles wins at 2m–2m1f on good/good-to-soft, returns to preferred trip and going. Same weight 11-4 as chief rivals.",
+      "main_risk": "Chase debut after 253-day break; Sober Glory OR153 and Baron Noir OR146 make this a strong five-runner field; jumping and fitness unproven.",
+      "sources": [
+        "https://m.attheraces.com/form/horse/Old-Park-Star/IRE/3710144",
+        "https://www.horseracinguk.co.uk/racecards/2026-11-18/ffos-las/1348/",
+        "https://www.horseracing.net/ffos-las/18-11-26/13%3A48"
+      ]
+    },
+    {
+      "rank": 2,
+      "label": "Shadow",
+      "horse": "Lord Du Gouet",
+      "race_time_uk": "12:33",
+      "racecourse": "Hexham",
+      "race": "British Stallion Studs EBF National Hunt Novices Hurdle",
+      "class": "4",
+      "distance": "2m 48y",
+      "going": "Good (good to soft in places)",
+      "declared_runners": 9,
+      "trainer": "Jamie Snowden",
+      "jockey": "Gavin Sheehan",
+      "reference_price_decimal": 1.62,
+      "reference_fractional": "8/13",
+      "reference_type": "published bookmaker/reference price on Timeform, not exchange",
+      "reference_price_source": "https://www.timeform.com/horse-racing/odds/hexham/2026-11-18/1233/24/1",
+      "reference_observed_during_run_uk": "2026-11-18 morning after 09:02:53",
+      "betfair_bsp": null,
+      "betfair_matched_price": null,
+      "rationale": "Promising hurdles debut runner-up at Fontwell 28 days earlier; that form subsequently strengthened by winners from same race. Eagle Warrior was beaten 12 lengths on own hurdles debut, giving Lord Du Gouet strongest documented hurdle form in this novice field.",
+      "main_risk": "Drop roughly 3f in trip, weakened late in a previous shorter bumper; Eagle Warrior and Loopy Mag remain dangers.",
+      "sources": [
+        "https://www.timeform.com/horse-racing/odds/hexham/2026-11-18/1233/24/1",
+        "https://theformsignal.com/courses/hexham/2026-11-18-12-33pm/",
+        "https://www.sportinglife.com/racing/meeting/2026-11-18/hexham/122629"
+      ]
+    },
+    {
+      "rank": 3,
+      "label": "Shadow",
+      "horse": "Diamond Street",
+      "race_time_uk": "13:18",
+      "racecourse": "Ffos Las",
+      "race": "Dandara Maiden Hurdle Div II",
+      "class": "4",
+      "distance": "1m 7f 182y",
+      "going": "Good (good to soft in places)",
+      "declared_runners": 9,
+      "trainer": "Dan Skelton",
+      "jockey": "Harry Skelton",
+      "reference_price_decimal": 1.8,
+      "reference_fractional": "4/5",
+      "reference_type": "published bookmaker/reference WillHill price, not exchange",
+      "reference_price_source": "https://www.goldedge.net/racing/ffos-las/2026-11-18/1318",
+      "reference_observed_during_run_uk": "2026-11-18 morning after 09:02:53",
+      "betfair_bsp": null,
+      "betfair_matched_price": null,
+      "rationale": "Won debut bumper and subsequently fifth of 20 in strong Newbury bumper; best documented bumper form in this field. Harry Skelton recently 16/44 wins (14-day snapshot) and Dan Skelton 19/80, supporting stable/rider form.",
+      "main_risk": "Hurdles debut after 242 days away; Quickkick has recent hurdles experience and may improve; debut jumping unknown.",
+      "sources": [
+        "https://www.horseracing.net/ffos-las/18-11-26",
+        "https://stadiro.com/horse-racing/ffos-las/2026-11-18/1318/",
+        "https://www.goldedge.net/racing/ffos-las/2026-11-18/1318"
+      ]
+    }
+  ],
+  "chronological_selection_order": [
+    2,
+    3,
+    1
+  ],
+  "pricing_quality": "Published quote observed in morning retrieval, but individual market tick timestamps and executable Betfair prices unavailable. Reference-price scenario is hypothetical and may not be reproducibly obtainable at an actual bookmaker. No claimed edge or minimum fair-value price; no selection is conditional on post-off price.",
+  "portfolios": {
+    "nap_only": [
+      "Old Park Star"
+    ],
+    "top3": [
+      "Lord Du Gouet",
+      "Diamond Street",
+      "Old Park Star"
+    ]
+  },
+  "starting_state_from": "strongest-horse-back-paper/status.json",
+  "virtual_accounts_before_today": {
+    "nap_only": {
+      "flat": {
+        "bank": 890,
+        "next_stake": 10
+      },
+      "x1_5": {
+        "bank": 890,
+        "next_stake": 15
+      },
+      "x2": {
+        "bank": 890,
+        "next_stake": 20
+      }
+    },
+    "top3": {
+      "flat": {
+        "bank": 870,
+        "next_stake": 10
+      },
+      "x1_5": {
+        "bank": 852.5,
+        "next_stake": 30
+      },
+      "x2": {
+        "bank": 830,
+        "next_stake": 40
+      }
+    }
+  },
+  "stake_plan_if_all_run": {
+    "nap_only": {
+      "flat": [
+        10
+      ],
+      "x1_5": [
+        15
+      ],
+      "x2": [
+        20
+      ]
+    },
+    "top3": {
+      "flat": [
+        10,
+        10,
+        10
+      ],
+      "x1_5": "First £30; following stakes depend on prior outcomes",
+      "x2": "First £40; following stakes depend on prior outcomes"
+    }
+  },
+  "notes": [
+    "Selections made before off times; no betting or order placement.",
+    "Rank order is strength of selection, not race chronological order.",
+    "Do not modify after outcomes; result updates in separate files.",
+    "No changes to Candidate D."
+  ]
+}
