@@ -219,8 +219,10 @@ Miners Bridge BSP 5.30 LOSER Navan 14th Nov
 
 2026-11-15
 Harry Lowes BSP 5.53 LOSER Cheltenham 15th Nov
-Downloading dwbfpricesukwin17112026.csv
-Downloading dwbfpricesirewin17112026.csv
 
 2026-11-16
 R P Mcmurphy BSP 6.42 LOSER Wolverhampton 16th Nov
+Downloading dwbfpricesukwin18112026.csv
+Downloading dwbfpricesirewin18112026.csv
+
+2026-11-17
