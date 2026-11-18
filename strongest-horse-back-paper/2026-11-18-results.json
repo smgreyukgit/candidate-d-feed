@@ -1,0 +1,359 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK WIN PAPER ONLY)",
+  "date": "2026-11-18",
+  "record_type": "EVENING_RESULTS_ONLY",
+  "original_locked_picks": "strongest-horse-back-paper/2026-11-18-picks.json",
+  "prediction_timestamp_uk": "2026-11-18T09:02:53+00:00",
+  "policy": "v2 (form-first; primary hypothetical fixed published bookmaker reference quotes, NOT exchange matched prices)",
+  "pricing_caveat": "Morning quotes are frozen in original picks journal, observed during 09:02:53+ UK research run; exact ticks unverified. The primary paper ledger is a CONDITIONAL hypothetical fixed-reference-price replay, not claimed obtainable Betfair profit. 5% illustrative commission on positive winning BACK profit. No live bets.",
+  "races": [
+    {
+      "rank": 2,
+      "horse": "Lord Du Gouet",
+      "time_uk": "12:33",
+      "course": "Hexham",
+      "position": 1,
+      "outcome": "WIN",
+      "reference_decimal": 1.62,
+      "reference_type": "published Timeform bookmaker/reference quote recorded in locked pre-race journal",
+      "source": "https://www.racingpost.com/results/25/hexham/2026-11-18/931561/",
+      "verified_betfair_bsp": null,
+      "exchange_matched_price": null
+    },
+    {
+      "rank": 3,
+      "horse": "Diamond Street",
+      "time_uk": "13:18",
+      "course": "Ffos Las",
+      "position": 1,
+      "outcome": "WIN",
+      "reference_decimal": 1.8,
+      "reference_type": "published WillHill reference quote recorded in locked pre-race journal",
+      "source": "https://www.racingpost.com/results/1212/ffos-las/2026-11-18/933516/",
+      "verified_betfair_bsp": null,
+      "exchange_matched_price": null
+    },
+    {
+      "rank": 1,
+      "horse": "Old Park Star",
+      "time_uk": "13:48",
+      "course": "Ffos Las",
+      "position": 3,
+      "outcome": "LOSS",
+      "reference_decimal": 1.8,
+      "reference_type": "published Betfred reference quote recorded in locked pre-race journal",
+      "source": "https://www.racingpost.com/results/1212/ffos-las/2026-11-18/931557/",
+      "verified_betfair_bsp": null,
+      "exchange_matched_price": null
+    }
+  ],
+  "bsp_note": "No BSP directly verified against Betfair source at this reconciliation. Third-party purported BSP is not substituted into the primary reference-price bank calculations.",
+  "portfolios": {
+    "NAP-only": {
+      "flat": {
+        "daily": {
+          "settled": 1,
+          "wins": 0,
+          "losses": 1,
+          "stake_gbp": 10,
+          "pnl_gbp": -10,
+          "roi_pct": -100
+        },
+        "cumulative": {
+          "settled": 2,
+          "wins": 0,
+          "losses": 2,
+          "total_staked_gbp": 20,
+          "pnl_gbp": -20,
+          "roi_pct": -100,
+          "bank_gbp": 880,
+          "max_drawdown_gbp": 20,
+          "longest_losing_streak": 2,
+          "next_stake_gbp": 10
+        },
+        "ledger": [
+          {
+            "horse": "Old Park Star",
+            "time_uk": "13:48",
+            "result": "LOSS",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 1.8,
+            "pnl_gbp": -10,
+            "bank_after_gbp": 880,
+            "next_stake_gbp": 10
+          }
+        ]
+      },
+      "x1_5_cap30": {
+        "daily": {
+          "settled": 1,
+          "wins": 0,
+          "losses": 1,
+          "stake_gbp": 15,
+          "pnl_gbp": -15,
+          "roi_pct": -100
+        },
+        "cumulative": {
+          "settled": 2,
+          "wins": 0,
+          "losses": 2,
+          "total_staked_gbp": 25,
+          "pnl_gbp": -25,
+          "roi_pct": -100,
+          "bank_gbp": 875,
+          "max_drawdown_gbp": 25,
+          "longest_losing_streak": 2,
+          "next_stake_gbp": 22.5
+        },
+        "ledger": [
+          {
+            "horse": "Old Park Star",
+            "time_uk": "13:48",
+            "result": "LOSS",
+            "stake_gbp": 15,
+            "locked_reference_decimal": 1.8,
+            "pnl_gbp": -15,
+            "bank_after_gbp": 875,
+            "next_stake_gbp": 22.5
+          }
+        ]
+      },
+      "x2_cap40": {
+        "daily": {
+          "settled": 1,
+          "wins": 0,
+          "losses": 1,
+          "stake_gbp": 20,
+          "pnl_gbp": -20,
+          "roi_pct": -100
+        },
+        "cumulative": {
+          "settled": 2,
+          "wins": 0,
+          "losses": 2,
+          "total_staked_gbp": 30,
+          "pnl_gbp": -30,
+          "roi_pct": -100,
+          "bank_gbp": 870,
+          "max_drawdown_gbp": 30,
+          "longest_losing_streak": 2,
+          "next_stake_gbp": 40
+        },
+        "ledger": [
+          {
+            "horse": "Old Park Star",
+            "time_uk": "13:48",
+            "result": "LOSS",
+            "stake_gbp": 20,
+            "locked_reference_decimal": 1.8,
+            "pnl_gbp": -20,
+            "bank_after_gbp": 870,
+            "next_stake_gbp": 40
+          }
+        ]
+      }
+    },
+    "Top-3": {
+      "flat": {
+        "daily": {
+          "settled": 3,
+          "wins": 2,
+          "losses": 1,
+          "stake_gbp": 30,
+          "pnl_gbp": 3.49,
+          "roi_pct": 11.63
+        },
+        "cumulative": {
+          "settled": 6,
+          "wins": 2,
+          "losses": 4,
+          "total_staked_gbp": 60,
+          "pnl_gbp": -26.51,
+          "roi_pct": -44.18,
+          "bank_gbp": 873.49,
+          "max_drawdown_gbp": 30,
+          "longest_losing_streak": 3,
+          "next_stake_gbp": 10
+        },
+        "ledger": [
+          {
+            "horse": "Lord Du Gouet",
+            "time_uk": "12:33",
+            "result": "WIN",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 1.62,
+            "pnl_gbp": 5.89,
+            "bank_after_gbp": 875.89,
+            "next_stake_gbp": 10
+          },
+          {
+            "horse": "Diamond Street",
+            "time_uk": "13:18",
+            "result": "WIN",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 1.8,
+            "pnl_gbp": 7.6,
+            "bank_after_gbp": 883.49,
+            "next_stake_gbp": 10
+          },
+          {
+            "horse": "Old Park Star",
+            "time_uk": "13:48",
+            "result": "LOSS",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 1.8,
+            "pnl_gbp": -10,
+            "bank_after_gbp": 873.49,
+            "next_stake_gbp": 10
+          }
+        ]
+      },
+      "x1_5_cap30": {
+        "daily": {
+          "settled": 3,
+          "wins": 2,
+          "losses": 1,
+          "stake_gbp": 50,
+          "pnl_gbp": 15.27,
+          "roi_pct": 30.54
+        },
+        "cumulative": {
+          "settled": 6,
+          "wins": 2,
+          "losses": 4,
+          "total_staked_gbp": 97.5,
+          "pnl_gbp": -32.23,
+          "roi_pct": -33.06,
+          "bank_gbp": 867.77,
+          "max_drawdown_gbp": 47.5,
+          "longest_losing_streak": 3,
+          "next_stake_gbp": 15
+        },
+        "ledger": [
+          {
+            "horse": "Lord Du Gouet",
+            "time_uk": "12:33",
+            "result": "WIN",
+            "stake_gbp": 30,
+            "locked_reference_decimal": 1.62,
+            "pnl_gbp": 17.67,
+            "bank_after_gbp": 870.17,
+            "next_stake_gbp": 10
+          },
+          {
+            "horse": "Diamond Street",
+            "time_uk": "13:18",
+            "result": "WIN",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 1.8,
+            "pnl_gbp": 7.6,
+            "bank_after_gbp": 877.77,
+            "next_stake_gbp": 10
+          },
+          {
+            "horse": "Old Park Star",
+            "time_uk": "13:48",
+            "result": "LOSS",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 1.8,
+            "pnl_gbp": -10,
+            "bank_after_gbp": 867.77,
+            "next_stake_gbp": 15
+          }
+        ]
+      },
+      "x2_cap40": {
+        "daily": {
+          "settled": 3,
+          "wins": 2,
+          "losses": 1,
+          "stake_gbp": 60,
+          "pnl_gbp": 21.16,
+          "roi_pct": 35.27
+        },
+        "cumulative": {
+          "settled": 6,
+          "wins": 2,
+          "losses": 4,
+          "total_staked_gbp": 130,
+          "pnl_gbp": -48.84,
+          "roi_pct": -37.57,
+          "bank_gbp": 851.16,
+          "max_drawdown_gbp": 70,
+          "longest_losing_streak": 3,
+          "next_stake_gbp": 20
+        },
+        "ledger": [
+          {
+            "horse": "Lord Du Gouet",
+            "time_uk": "12:33",
+            "result": "WIN",
+            "stake_gbp": 40,
+            "locked_reference_decimal": 1.62,
+            "pnl_gbp": 23.56,
+            "bank_after_gbp": 853.56,
+            "next_stake_gbp": 10
+          },
+          {
+            "horse": "Diamond Street",
+            "time_uk": "13:18",
+            "result": "WIN",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 1.8,
+            "pnl_gbp": 7.6,
+            "bank_after_gbp": 861.16,
+            "next_stake_gbp": 10
+          },
+          {
+            "horse": "Old Park Star",
+            "time_uk": "13:48",
+            "result": "LOSS",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 1.8,
+            "pnl_gbp": -10,
+            "bank_after_gbp": 851.16,
+            "next_stake_gbp": 20
+          }
+        ]
+      }
+    }
+  },
+  "selection_counts": {
+    "today": {
+      "nap_only": {
+        "won": 0,
+        "lost": 1
+      },
+      "top3": {
+        "won": 2,
+        "lost": 1
+      },
+      "unpriced_forecasts": 0,
+      "unsettled": 0
+    },
+    "cumulative": {
+      "nap_only": {
+        "won": 0,
+        "lost": 2,
+        "settled": 2
+      },
+      "top3": {
+        "won": 2,
+        "lost": 4,
+        "settled": 6
+      }
+    }
+  },
+  "source_urls": [
+    "https://www.racingpost.com/results/25/hexham/2026-11-18/931561/",
+    "https://www.racingpost.com/results/1212/ffos-las/2026-11-18/933516/",
+    "https://www.racingpost.com/results/1212/ffos-las/2026-11-18/931557/"
+  ],
+  "integrity": [
+    "Original 16–18 Nov pre-race picks unchanged",
+    "17 Nov NO BET preserved",
+    "No Candidate D files altered",
+    "All selections paper-only",
+    "Race times, not selection rank, determine the Top-3 progression"
+  ]
+}
