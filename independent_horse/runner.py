@@ -355,6 +355,20 @@ def smoke(now):
     if str((head.get("race_summary_reference") or {}).get("id"))!=cards[0]["race_id"] or not race.get("rides"):
         raise SourceFailure("Racecard detail smoke test failed")
     LOG.info("Source smoke succeeded: %s, %s runners",cards[0]["race_id"],len(race["rides"]))
+    # Exercise the real, end-to-end pre-race scoring path without locking picks.
+    available=[c for c in cards if off_time(c["date"],c["off"]) and
+        off_time(c["date"],c["off"])>=now+timedelta(minutes=65)]
+    checked=0;priced=0;leaders=0
+    for c in available[:6]:
+        item=race_leader(c,now)
+        checked+=1
+        if item:
+            leaders+=1
+            priced+=int(item["price_eligible"])
+            LOG.info("Form probe: %s in %s at %s; pre-race bookmaker quote %s",
+                item["horse"],item["racecourse"],item["race_time_uk"],item["reference_price_decimal"])
+    LOG.info("Pre-race probe complete: %d details, %d qualified leaders, %d priced; no picks locked",
+        checked,leaders,priced)
 
 def main(argv=None):
     ap=argparse.ArgumentParser()
