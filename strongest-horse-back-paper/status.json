@@ -1,9 +1,12 @@
 {
   "experiment": "Strongest Horse Bets — Progressive Staking",
-  "as_of_uk": "2026-11-18 evening results reconciliation",
-  "last_day": "2026-11-18",
+  "as_of_uk": "2026-11-19T14:29:14+00:00 (afternoon catch-up pre-race, not 09:00)",
+  "last_day": "2026-11-19",
   "results_file": "2026-11-18-results.json",
-  "unsettled": [],
+  "unsettled": [
+    "2026-11-19 Big Money Newcastle 16:10",
+    "2026-11-19 High Threshold Newcastle 17:10"
+  ],
   "nap_only": {
     "flat": {
       "bank_gbp": 880,
@@ -32,7 +35,7 @@
       "next_stake_gbp": 20
     }
   },
-  "note": "18 Nov morning locked picks in pre-race file. Confirmed Lord Du Gouet and Diamond Street won, Old Park Star third. Today's Top-3 +3.49/+15.27/+21.16 at frozen bookmaker reference quotes with illustrative commission; NAP-only -10/-15/-20. Verified Betfair BSP not available. All paper only; no executable exchange fill claimed. Candidate D untouched.",
+  "note": "Missed 9am automation: both primary prediction and 9pm results tasks were found disabled on 19 Nov, manually re-enabled at ~14:26 UK. Two PRE-RACE selections logged at 14:29 UK for later 16:10 and 17:10 Newcastle, with published bookmaker reference odds. None retrospectively backfilled. Existing six banks and progression unchanged until validated settlement. An independent 10am daily backup watchdog was created beginning 20 Nov. Candidate D untouched.",
   "prior_results_file": "2026-11-17-results.json",
   "result_crosscheck_pending": [],
   "selection_policy": {
@@ -41,11 +44,13 @@
     "rules_file": "strongest-horse-back-paper/selection-policy-v2-2026-11-18.md",
     "change": "Form-first pre-race picks; published reference prices permitted, Betfair executable price and numeric fair probability no longer prerequisites. Primary monetary simulation uses verified pre-race quoted reference price with illustrative 5% fee, not actual exchange fills; verified BSP is separate secondary series. Do not retroactively modify 16/17 Nov picks."
   },
-  "picks_file": "2026-11-18-picks.json",
+  "picks_file": "2026-11-19-picks.json",
   "secondary_bsp_status": "No Betfair-direct verified BSP as of reconciliation; primary results use recorded pre-race published bookmaker reference prices with 5% illustrative win-profit commission.",
   "performance_progress": {
     "nap_only_settled": 2,
     "top3_settled": 6,
     "target": 200
-  }
+  },
+  "next_backup_check_uk": "2026-11-20T10:00:00+00:00",
+  "task_status_note": "Primary prediction and evening results tasks re-enabled 19 Nov 2026; reason previously disabled unknown."
 }
