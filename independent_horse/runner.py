@@ -177,6 +177,9 @@ def race_leader(card,now):
     candidates.sort(key=lambda r:(-r["metric_evidence"]["score"],r["horse"]))
     if not candidates:return None
     best=candidates[0]
+    # This shadow test favours plausible winners; very long prices are not justified
+    # solely by the limited recent-form score. This filter is declared before live picks.
+    if best["reference_price_decimal"] is not None and best["reference_price_decimal"]>8.0:return None
     if best["metric_evidence"]["score"]<18:return None
     if len(candidates)>1 and best["metric_evidence"]["score"]-candidates[1]["metric_evidence"]["score"]<2:return None
     ev=best["metric_evidence"]
@@ -369,6 +372,22 @@ def smoke(now):
                 item["horse"],item["racecourse"],item["race_time_uk"],item["reference_price_decimal"])
     LOG.info("Pre-race probe complete: %d details, %d qualified leaders, %d priced; no picks locked",
         checked,leaders,priced)
+    # Validate that historical settled-result pages also retain the exact race ID.
+    # This reads data only. It cannot settle any shadow portfolio or lock any pick.
+    finished=[c for c in cards if off_time(c["date"],c["off"]) and
+        off_time(c["date"],c["off"])<now-timedelta(minutes=90)]
+    if finished:
+        selected=finished[0]
+        obj,_=get(selected["url"],html=True)
+        r=((obj.get("props") or {}).get("pageProps") or {}).get("race") or {}
+        starters=[v for v in r.get("rides",[]) if isinstance(v,dict) and not nonrunner(v)]
+        if starters:
+            ref=((starters[0].get("horse") or {}).get("horse_reference") or {}).get("id")
+            result=result_for({"race_id":selected["race_id"],"horse_id":str(ref),
+                "result_url":selected["result_url"]},selected["date"])
+            LOG.info("Result probe: %s outcome %s; source status %s; no ledger changes",
+                selected["race_id"],result.get("outcome"),result.get("stage"))
+
 
 def main(argv=None):
     ap=argparse.ArgumentParser()
