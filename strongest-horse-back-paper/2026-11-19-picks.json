@@ -1,0 +1,107 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK WIN PAPER ONLY)",
+  "date": "2026-11-19",
+  "status": "PRE_RACE_PICKS_LOCKED",
+  "execution_context": "Manual afternoon catch-up because both 9:00am and 9:00pm automations were found disabled on 19 November; NOT a 9:00am pick. No retroactive selections.",
+  "prediction_timestamp_uk": "2026-11-19T14:29:14+00:00",
+  "timestamp_note": "UTC equals Europe/London on 19 Nov. Current time verified before writing. Source pages checked around 14:28–14:30; exact market tick times not available. Races chosen are later (16:10 and 17:10).",
+  "policy_version": "v2",
+  "price_convention": "Hypothetical fixed published bookmaker/reference quotes locked before race; not Betfair matched/executable odds, not verified BSP; illustrative 5% commission on positive back profit. Do not substitute later odds if quotes move.",
+  "selections": [
+    {
+      "rank": 1,
+      "label": "NAP",
+      "horse": "Big Money",
+      "race_time_uk": "16:10",
+      "racecourse": "Newcastle (AW)",
+      "race": "AWC Finals Day At Newcastle 26th March Novice Stakes",
+      "race_type": "Class 4 novice, 7f14y Tapeta standard, 3yo+",
+      "trainer": "Michael Appleby",
+      "jockey": "Jason Hart",
+      "form": "4-22",
+      "reference_price_decimal": 2.75,
+      "reference_fractional": "7/4",
+      "reference_type": "Timeform published bookmaker price; illustrative, not Betfair Exchange",
+      "reference_price_source": "https://www.timeform.com/horse-racing/odds/newcastle/2026-11-19/1610/35/2",
+      "observed_time_uk": "circa 14:29",
+      "rationale": "Second in both starts this season; most recently beaten just 3/4 length in 10-runner Southwell novice over 6f on 26 Oct; return to 7f likely helpful based on prior 7f form and the unsuitable 6f drop. Relevant proven recent AW form in a novice contest.",
+      "main_risks": "Unraced El Ra'ady from William Haggas could be better than maiden class, and Nip About is a course-and-distance runner-up; Big Money has not yet won and drawing gate 8 introduces uncertainty.",
+      "sources": [
+        "https://www.racingpost.com/profile/horse/8432197/big-money/",
+        "https://www.timeform.com/horse-racing/odds/newcastle/2026-11-19/1610/35/2",
+        "https://www.racingpost.com/racecards/1353/newcastle-aw/2026-11-19/931780/"
+      ]
+    },
+    {
+      "rank": 2,
+      "label": "Shadow",
+      "horse": "High Threshold",
+      "race_time_uk": "17:10",
+      "racecourse": "Newcastle (AW)",
+      "race": "All-Weather Championship Is Back EBF Novice Stakes (Div I)",
+      "race_type": "Class 3 novice, 7f14y Tapeta standard, 2yo",
+      "trainer": "Archie Watson",
+      "jockey": "Hollie Doyle",
+      "form": "2",
+      "reference_price_decimal": 2.5,
+      "reference_fractional": "6/4",
+      "reference_type": "Timeform published bookmaker price; illustrative, not Betfair Exchange",
+      "reference_price_source": "https://www.timeform.com/horse-racing/odds/newcastle/2026-11-19/1710/35/4",
+      "observed_time_uk": "circa 14:29",
+      "rationale": "On debut finished second of 12, beaten only half a length over 6f at Newcastle on 2 October despite racing traffic/slow break; extra furlong may suit. Proven on this Tapeta track and jockey Hollie Doyle rides.",
+      "main_risks": "Only one run; stepping up a furlong is inference, not demonstrated ability; Idealise and Tabkir pose realistic dangers and juvenile improvement is uncertain.",
+      "sources": [
+        "https://www.timeform.com/horse-racing/odds/newcastle/2026-11-19/1710/35/4",
+        "https://www.racingpost.com/racecards/1353/newcastle-aw/2026-11-19/931779/",
+        "https://theformsignal.com/courses/newcastle/2026-11-19-5-10pm/"
+      ]
+    }
+  ],
+  "why_no_third": "Other reviewed later races had less independently compelling documented form support relative to opposition; the experiment allows fewer than three. Do not force a third or later backfill.",
+  "portfolios": {
+    "nap_only": [
+      "Big Money"
+    ],
+    "top3": [
+      "Big Money",
+      "High Threshold"
+    ]
+  },
+  "initial_pre_today_bank_state": {
+    "nap_only": {
+      "flat": {
+        "bank_gbp": 880,
+        "next_stake_gbp": 10
+      },
+      "x1_5": {
+        "bank_gbp": 875,
+        "next_stake_gbp": 22.5
+      },
+      "x2": {
+        "bank_gbp": 870,
+        "next_stake_gbp": 40
+      }
+    },
+    "top3": {
+      "flat": {
+        "bank_gbp": 873.49,
+        "next_stake_gbp": 10
+      },
+      "x1_5": {
+        "bank_gbp": 867.77,
+        "next_stake_gbp": 15
+      },
+      "x2": {
+        "bank_gbp": 851.16,
+        "next_stake_gbp": 20
+      }
+    }
+  },
+  "no_bet_if_nonrunner": true,
+  "notes": [
+    "Two pre-race FORECASTS logged in the afternoon, NOT missed 9am selections. No retrospective selections.",
+    "Both runner/race identities and scheduled off times checked from independent UK racecard/form sources; quote tick timestamps unknown. Not exchange fills or evidence of a price edge.",
+    "Keep Candidate D unchanged. No actual bets; paper only.",
+    "Journal pick list must remain immutable. Settlements recorded in separate day results journal."
+  ]
+}
