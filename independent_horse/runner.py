@@ -77,8 +77,8 @@ def listing(day):
             if not rid or race_day!=day:continue
             rname=race.get("name") or "race"
             cards.append({"race_id":rid,"course":name,"name":rname,"off":race.get("time"),
-                "url":f"{SITE}/racing/racecards/{day}/{slug(name) if False else slug(course.get('name',''))}/racecard/{rid}/{slug(rname)}",
-                "result_url":f"{SITE}/racing/results/{day}/{slug(name)}/{rid}/{slug(rname)}" if False else f"{SITE}/racing/results/{day}/{slug(course.get('name',''))}/{rid}/{slug(rname)}",
+                "url":f"{SITE}/racing/racecards/{day}/{slug(course.get('name',''))}/racecard/{rid}/{slug(rname)}",
+                "result_url":f"{SITE}/racing/results/{day}/{slug(course.get('name',''))}/{rid}/{slug(rname)}",
                 "date":day})
     if not cards:raise SourceFailure("No qualifying UK/Irish card links; feed missing or changed")
     return cards,url,digest
@@ -195,7 +195,6 @@ def morning(now):
         LOG.info("Outside UK 09:00-12:59 pre-race processing window")
         return
     cards,url,digest=listing(day)
-    eligible=[c for c in cards if (off_time(day,c["off"]) or now)<now+timedelta(minutes=65) is False]
     # Written out explicitly to avoid guessing or silently including races already off.
     eligible=[c for c in cards if off_time(day,c["off"]) and off_time(day,c["off"])>=now+timedelta(minutes=65)]
     if not eligible:raise SourceFailure("No races safely in future; no hindsight bets")
