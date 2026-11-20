@@ -1,0 +1,35 @@
+name: One-off PLACE BSP retrospective comparison
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/oneoff-place-bsp.yml'
+      - 'scripts/oneoff_place_bsp_reconstruction.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch actual Betfair Place BSP files and match historical picks
+        run: python scripts/oneoff_place_bsp_reconstruction.py
+      - name: Save verified standalone one-off retrospective report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- strongest-horse-back-paper/place-bsp-retrospective/
+          if git diff --cached --quiet; then
+            echo 'No verified report saved yet; see run logs'
+            exit 0
+          fi
+          git commit -m 'Record verified one-off Place BSP retrospective P/L'
+          git pull --rebase origin main
+          git push origin HEAD:main
