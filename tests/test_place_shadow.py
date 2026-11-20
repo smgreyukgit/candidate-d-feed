@@ -36,7 +36,7 @@ class TestPlace(unittest.TestCase):
             r=p.result(self.pick,D,self.card)
         self.assertEqual(r["status"],"PLACED")
         self.assertEqual(r["places_paid"],3)
-        self.assertEqual(r["illustrative_place_reference_decimal"],"1.100")
+        self.assertEqual(r["illustrative_place_reference_decimal"],"1.3500")
         self.assertEqual(r["pnl_gbp"],"3.33")
     def test_seven_runners_third_is_loss(self):
         with patch.object(p,"get",return_value=(fake_race(7,False,3),"abcdef")):
