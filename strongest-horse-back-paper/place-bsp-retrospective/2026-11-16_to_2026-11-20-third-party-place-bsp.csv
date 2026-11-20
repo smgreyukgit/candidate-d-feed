@@ -1,0 +1,12 @@
+date,rank,horse,racecourse,race_time_uk,starters,position,market_label,price_decimal,status,pnl_gbp,source_url
+2026-11-16,1,Kamille Au Kanada,Plumpton,14:15,10,2,Top 3,1.49,PLACED,4.66,https://stablewhispers.co.uk/fast-results/2026-11-16/plumpton/
+2026-11-16,2,Saxophonic,Wolverhampton (AW),20:30,11,4,Top 3,1.45,UNPLACED,-10.00,https://stablewhispers.co.uk/fast-results/2026-11-16/wolverhampton/
+2026-11-16,3,R P McMurphy,Wolverhampton (AW),19:30,12,12,Top 3,2.36,UNPLACED,-10.00,https://stablewhispers.co.uk/fast-results/2026-11-16/wolverhampton/
+2026-11-18,1,Old Park Star,Ffos Las,13:48,4,3,,,INELIGIBLE_FEWER_THAN_5_STARTERS,,https://stablewhispers.co.uk/fast-results/2026-11-18/ffos-las/
+2026-11-18,2,Lord Du Gouet,Hexham,12:33,9,1,Top 3,1.07,PLACED,0.67,https://stablewhispers.co.uk/fast-results/2026-11-18/hexham/
+2026-11-18,3,Diamond Street,Ffos Las,13:18,7,1,Top 2,1.16,PLACED,1.52,https://stablewhispers.co.uk/fast-results/2026-11-18/ffos-las/
+2026-11-19,1,Big Money,Newcastle (AW),16:10,11,2,Top 3,1.50,PLACED,4.75,https://stablewhispers.co.uk/fast-results/2026-11-19/newcastle-aw/
+2026-11-19,2,High Threshold,Newcastle (AW),17:10,7,1,Top 2,1.35,PLACED,3.33,https://stablewhispers.co.uk/fast-results/2026-11-19/newcastle-aw/
+2026-11-20,1,Current Edition,Ascot,12:45,,,,,MATCH_FAILED,,https://stablewhispers.co.uk/fast-results/2026-11-20/ascot/
+2026-11-20,2,Power Steering,Ascot,15:40,,,,,MATCH_FAILED,,https://stablewhispers.co.uk/fast-results/2026-11-20/ascot/
+2026-11-20,3,Push The Limit,Ascot,13:20,,,,,MATCH_FAILED,,https://stablewhispers.co.uk/fast-results/2026-11-20/ascot/
