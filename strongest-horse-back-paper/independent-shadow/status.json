@@ -1,0 +1,90 @@
+{
+  "source_system": "independent-shadow-v1",
+  "as_of_uk": "2026-11-20T01:47:54+00:00",
+  "unresolved": 0,
+  "portfolios": {
+    "NAP-only": {
+      "flat": {
+        "bank_gbp": "900",
+        "pnl_gbp": "0",
+        "wins": 0,
+        "losses": 0,
+        "total_staked_gbp": "0",
+        "roi_pct": null,
+        "max_drawdown_gbp": "0",
+        "longest_losing_streak": 0,
+        "next_stake_gbp": "10.00",
+        "progression_blocked": false,
+        "ledger": []
+      },
+      "x1.5_cap30": {
+        "bank_gbp": "900",
+        "pnl_gbp": "0",
+        "wins": 0,
+        "losses": 0,
+        "total_staked_gbp": "0",
+        "roi_pct": null,
+        "max_drawdown_gbp": "0",
+        "longest_losing_streak": 0,
+        "next_stake_gbp": "10.00",
+        "progression_blocked": false,
+        "ledger": []
+      },
+      "x2_cap40": {
+        "bank_gbp": "900",
+        "pnl_gbp": "0",
+        "wins": 0,
+        "losses": 0,
+        "total_staked_gbp": "0",
+        "roi_pct": null,
+        "max_drawdown_gbp": "0",
+        "longest_losing_streak": 0,
+        "next_stake_gbp": "10.00",
+        "progression_blocked": false,
+        "ledger": []
+      }
+    },
+    "Top-3": {
+      "flat": {
+        "bank_gbp": "900",
+        "pnl_gbp": "0",
+        "wins": 0,
+        "losses": 0,
+        "total_staked_gbp": "0",
+        "roi_pct": null,
+        "max_drawdown_gbp": "0",
+        "longest_losing_streak": 0,
+        "next_stake_gbp": "10.00",
+        "progression_blocked": false,
+        "ledger": []
+      },
+      "x1.5_cap30": {
+        "bank_gbp": "900",
+        "pnl_gbp": "0",
+        "wins": 0,
+        "losses": 0,
+        "total_staked_gbp": "0",
+        "roi_pct": null,
+        "max_drawdown_gbp": "0",
+        "longest_losing_streak": 0,
+        "next_stake_gbp": "10.00",
+        "progression_blocked": false,
+        "ledger": []
+      },
+      "x2_cap40": {
+        "bank_gbp": "900",
+        "pnl_gbp": "0",
+        "wins": 0,
+        "losses": 0,
+        "total_staked_gbp": "0",
+        "roi_pct": null,
+        "max_drawdown_gbp": "0",
+        "longest_losing_streak": 0,
+        "next_stake_gbp": "10.00",
+        "progression_blocked": false,
+        "ledger": []
+      }
+    }
+  },
+  "warning": "Hypothetical bookmaker reference prices, 5% illustrative commission; NO matched Betfair bets or verified BSP"
+}
