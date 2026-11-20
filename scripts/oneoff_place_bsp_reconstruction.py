@@ -53,13 +53,18 @@ def parse_race(page_html,day,track,time,horse):
         t=re.search(r'<span class="swr-time">(.*?)</span>',head,re.S)
         if not t or clean(t.group(1))!=time:continue
         n=re.search(r'<span class="swr-places">(\d+) ran</span>',head,re.I)
-        if not n:raise ValueError("Missing starter count for target race")
-        starters=int(n.group(1))
         title=re.search(r'<span class="swr-rname">(.*?)</span>',head,re.S)
         title=clean(title.group(1)) if title else ""
         table=re.search(r'<table class="swr-table">(.*?)</table>',chunk,re.S)
         if not table:raise ValueError("Missing runner/odds table")
         raw=table.group(1)
+        row_count=len(re.findall(r'<tr class="swr-row[^"]*"',raw))
+        starters=int(n.group(1)) if n else row_count
+        count_basis="published N ran" if n else "count of returned result table rows (provisional)"
+        if starters<1 or row_count<1:
+            raise ValueError("Empty table or starter count")
+        if n and abs(starters-row_count)>2:
+            raise ValueError("Published starter count disagrees with displayed runner rows")
         headers=[clean(x) for x in re.findall(r'<th[^>]*>(.*?)</th>',raw,re.S)]
         rows=[]
         for tr in re.findall(r'<tr class="swr-row[^"]*"[^>]*>(.*?)</tr>',raw,re.S):
@@ -68,16 +73,16 @@ def parse_race(page_html,day,track,time,horse):
             d=dict(zip(headers,[clean(x) for x in cells]))
             name=re.sub(r'^\d+\s+','',d.get("Horse",""))
             if norm(name)==norm(horse):
-                matches.append((starters,title,headers,d))
+                matches.append((starters,title,headers,d,count_basis))
     if len(matches)!=1:
         raise ValueError(f"Found {len(matches)} unique runner matches (required 1) for {day} {track} {time} {horse}")
-    starters,title,headers,row=matches[0]
+    starters,title,headers,row,count_basis=matches[0]
     pos_match=re.match(r"^\d+",row.get("Pos",""))
     if not pos_match:raise ValueError("Could not confirm official finishing position")
     position=int(pos_match.group())
     handicap=bool(re.search(r"\bhandicap\b|\bhcap\b",title,re.I))
     market=("Top 4" if starters>=16 and handicap else "Top 3" if starters>=8 else "Top 2" if starters>=5 else None)
-    data={"race_name":title,"starters":starters,"position":position,
+    data={"race_name":title,"starters":starters,"starter_count_evidence":count_basis,"position":position,
         "market_label":market,"price_decimal":None,"status":None,
         "bookmaker_sp":row.get("SP"),"win_bsp_third_party":row.get("Win BSP")}
     if market is None:
