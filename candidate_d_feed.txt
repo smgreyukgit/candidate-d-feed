@@ -224,9 +224,13 @@ Harry Lowes BSP 5.53 LOSER Cheltenham 15th Nov
 R P Mcmurphy BSP 6.42 LOSER Wolverhampton 16th Nov
 
 2026-11-17
-Downloading dwbfpricesukwin19112026.csv
-Downloading dwbfpricesirewin19112026.csv
 
 2026-11-18
 Drop Kick BSP 5.80 LOSER Hexham 18th Nov
 Devilsrollthedice BSP 6.00 LOSER Ffos Las 18th Nov
+Downloading dwbfpricesukwin20112026.csv
+Downloading dwbfpricesirewin20112026.csv
+
+2026-11-19
+Olive Noir BSP 5.40 LOSER Warwick 19th Nov
+Liquid Cooled BSP 5.80 WINNER Newcastle 19th Nov
