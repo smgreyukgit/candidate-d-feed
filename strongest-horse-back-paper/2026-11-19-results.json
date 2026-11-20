@@ -1,0 +1,61 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK WIN PAPER ONLY)",
+  "date": "2026-11-19",
+  "status": "SETTLED",
+  "settled_on_uk": "2026-11-20 morning",
+  "source_picks": "2026-11-19-picks.json",
+  "results": [
+    {
+      "horse": "Big Money",
+      "rank": 1,
+      "scheduled_off_uk": "16:10",
+      "outcome": "LOSS",
+      "position": 2,
+      "reference_price_decimal": 2.75,
+      "result_source": "https://racecards.co.uk/results/newcastle/2026-11-19/16%3A10",
+      "winner": "Ezenli"
+    },
+    {
+      "horse": "High Threshold",
+      "rank": 2,
+      "scheduled_off_uk": "17:10",
+      "outcome": "WIN",
+      "position": 1,
+      "reference_price_decimal": 2.5,
+      "result_source": "https://insights.betfred.com/horse-racing/results/2026-11-19/newcastle/931779/17-10/",
+      "winner": "High Threshold"
+    }
+  ],
+  "primary_convention": "Locked pre-race published bookmaker reference odds, illustrative 5% commission on positive profits; not matched Betfair prices or verified BSP",
+  "portfolio_updates": {
+    "nap_only": {
+      "flat": {
+        "bank_gbp": 870,
+        "next_stake_gbp": 10
+      },
+      "x1_5": {
+        "bank_gbp": 852.5,
+        "next_stake_gbp": 30
+      },
+      "x2": {
+        "bank_gbp": 830,
+        "next_stake_gbp": 40
+      }
+    },
+    "top3": {
+      "flat": {
+        "bank_gbp": 877.74,
+        "next_stake_gbp": 10
+      },
+      "x1_5": {
+        "bank_gbp": 884.83,
+        "next_stake_gbp": 10
+      },
+      "x2": {
+        "bank_gbp": 888.16,
+        "next_stake_gbp": 10
+      }
+    }
+  },
+  "note": "Both races settled in chronological order; NAP-only Big Money loss; Top-3 Big Money loss followed by High Threshold win."
+}
