@@ -38,5 +38,11 @@ def main():
             with urllib.request.urlopen(req,timeout=30) as response:
                 raw=response.read()
                 print("ALTERNATIVE",url,"code",response.status,"length",len(raw),"excerpt",raw.decode("utf8")[:140].replace("\\n"," "))
+                txt=raw.decode("utf-8")
+                for name in ["Saxophonic","Kamille Au Kanada","Old Park Star","Lord Du Gouet","Big Money","High Threshold","Current Edition","Power Steering","Push The Limit"]:
+                    at=txt.lower().find(name.lower())
+                    if at>=0:print("HORSE_CONTEXT",name,repr(txt[max(0,at-700):at+800])[:1600])
+                for marker in ["Top 2","top-2","synthetic","estimated","projected","modelled"]:
+                    print("MARKER",marker,txt.lower().find(marker.lower()))
         except Exception as e:print("ALTERNATIVE_ERROR",url,type(e).__name__,str(e))
 if __name__=="__main__":main()
