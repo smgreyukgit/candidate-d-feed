@@ -1,41 +1,38 @@
 {
   "experiment": "Strongest Horse Bets — Progressive Staking",
-  "as_of_uk": "2026-11-19T14:29:14+00:00 (afternoon catch-up pre-race, not 09:00)",
+  "as_of_uk": "2026-11-20 morning reconciliation of 2026-11-19 results",
   "last_day": "2026-11-19",
-  "results_file": "2026-11-18-results.json",
-  "unsettled": [
-    "2026-11-19 Big Money Newcastle 16:10",
-    "2026-11-19 High Threshold Newcastle 17:10"
-  ],
+  "results_file": "2026-11-19-results.json",
+  "unsettled": [],
   "nap_only": {
     "flat": {
-      "bank_gbp": 880,
+      "bank_gbp": 870,
       "next_stake_gbp": 10
     },
     "x1_5": {
-      "bank_gbp": 875,
-      "next_stake_gbp": 22.5
+      "bank_gbp": 852.5,
+      "next_stake_gbp": 30
     },
     "x2": {
-      "bank_gbp": 870,
+      "bank_gbp": 830,
       "next_stake_gbp": 40
     }
   },
   "top3": {
     "flat": {
-      "bank_gbp": 873.49,
+      "bank_gbp": 877.74,
       "next_stake_gbp": 10
     },
     "x1_5": {
-      "bank_gbp": 867.77,
-      "next_stake_gbp": 15
+      "bank_gbp": 884.83,
+      "next_stake_gbp": 10
     },
     "x2": {
-      "bank_gbp": 851.16,
-      "next_stake_gbp": 20
+      "bank_gbp": 888.16,
+      "next_stake_gbp": 10
     }
   },
-  "note": "Missed 9am automation: both primary prediction and 9pm results tasks were found disabled on 19 Nov, manually re-enabled at ~14:26 UK. Two PRE-RACE selections logged at 14:29 UK for later 16:10 and 17:10 Newcastle, with published bookmaker reference odds. None retrospectively backfilled. Existing six banks and progression unchanged until validated settlement. An independent 10am daily backup watchdog was created beginning 20 Nov. Candidate D untouched.",
+  "note": "19 Nov results already existed in 2026-11-19-results.json, so no duplicate settlement written. Historical 16/17 Nov and all pick journals untouched. Morning of 20 Nov: no 20 Nov picks file found at time checked; no new results created. Candidate D untouched.",
   "prior_results_file": "2026-11-17-results.json",
   "result_crosscheck_pending": [],
   "selection_policy": {
@@ -45,12 +42,28 @@
     "change": "Form-first pre-race picks; published reference prices permitted, Betfair executable price and numeric fair probability no longer prerequisites. Primary monetary simulation uses verified pre-race quoted reference price with illustrative 5% fee, not actual exchange fills; verified BSP is separate secondary series. Do not retroactively modify 16/17 Nov picks."
   },
   "picks_file": "2026-11-19-picks.json",
-  "secondary_bsp_status": "No Betfair-direct verified BSP as of reconciliation; primary results use recorded pre-race published bookmaker reference prices with 5% illustrative win-profit commission.",
+  "secondary_bsp_status": "No verified Betfair BSP for 19 Nov; secondary proxy unavailable. Do not substitute published SP.",
   "performance_progress": {
-    "nap_only_settled": 2,
-    "top3_settled": 6,
-    "target": 200
+    "nap_only_settled": 3,
+    "top3_settled": 8,
+    "target": 200,
+    "nap_only_wins": 0,
+    "nap_only_losses": 3,
+    "top3_wins": 3,
+    "top3_losses": 5,
+    "forecast_only": 0,
+    "unsettled": 0
   },
   "next_backup_check_uk": "2026-11-20T10:00:00+00:00",
-  "task_status_note": "Primary prediction and evening results tasks re-enabled 19 Nov 2026; reason previously disabled unknown."
+  "task_status_note": "Primary prediction and evening results tasks re-enabled 19 Nov 2026; reason previously disabled unknown.",
+  "last_results_verification": {
+    "date": "2026-11-19",
+    "nap": "Big Money 2nd LOSS",
+    "shadow": "High Threshold 1st WIN",
+    "sources": [
+      "https://www.racingpost.com/results/1353/newcastle-aw/2026-11-19/931780/",
+      "https://www.racingpost.com/results/1353/newcastle-aw/2026-11-19/931779/"
+    ],
+    "price_caveat": "Reference quotes 2.75 and 2.50 were stored in pre-off journal timestamped 14:29:14 UK; independent source-side quote tick timestamps not verified. Existing ledger is illustrative and conditional, not proof of available bookmaker price or Betfair fill."
+  }
 }
