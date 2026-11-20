@@ -1,0 +1,101 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking, strictly PAPER only",
+  "date": "2026-11-20",
+  "reconciliation_stage": "PARTIAL_AS_OF_APPROX_16_10_UK",
+  "not_official_final_status": true,
+  "locked_source_picks": "strongest-horse-back-paper/2026-11-20-picks.json",
+  "pre_race_selection_timestamp_uk": "2026-11-20T10:01:27+00:00",
+  "results": [
+    {
+      "horse": "Current Edition",
+      "rank": 1,
+      "course": "Ascot",
+      "scheduled_off_uk": "12:45",
+      "result": "LOSS",
+      "position": 3,
+      "locked_reference_decimal": 2.75,
+      "result_sources": [
+        "https://www.racingpost.com/results/2/ascot/2026-11-20/931594/",
+        "https://www.oddschecker.com/horse-racing/results/2026-11-20/ascot"
+      ]
+    },
+    {
+      "horse": "Push The Limit",
+      "rank": 3,
+      "course": "Ascot",
+      "scheduled_off_uk": "13:20",
+      "result": "LOSS",
+      "position": 3,
+      "locked_reference_decimal": 2.375,
+      "result_sources": [
+        "https://www.racingpost.com/results/2/ascot/2026-11-20/931593/",
+        "https://www.oddschecker.com/horse-racing/results/2026-11-20/ascot"
+      ]
+    },
+    {
+      "horse": "Power Steering",
+      "rank": 2,
+      "course": "Ascot",
+      "scheduled_off_uk": "15:40",
+      "result": "PENDING_CONFIRMATION",
+      "locked_reference_decimal": 2,
+      "result_sources_checked": [
+        "https://www.oddschecker.com/horse-racing/results/2026-11-20/ascot",
+        "https://www.horseracing.net/results/ascot/20-11-26"
+      ],
+      "note": "Race already off but no reliable weighed-in result retrieved during this update. Do not infer WIN from pre-race Timeform predicted 1-2-3 or the quoted racecard."
+    }
+  ],
+  "simulated_paper_after_two_confirmed_today": {
+    "NAP-only": {
+      "flat": {
+        "bank_gbp": 860,
+        "pnl_since_start_gbp": -40,
+        "next_stake_gbp": 10,
+        "cumulative_win": 0,
+        "cumulative_loss": 4
+      },
+      "x1_5": {
+        "bank_gbp": 822.5,
+        "pnl_since_start_gbp": -77.5,
+        "next_stake_gbp": 30,
+        "cumulative_win": 0,
+        "cumulative_loss": 4
+      },
+      "x2": {
+        "bank_gbp": 790,
+        "pnl_since_start_gbp": -110,
+        "next_stake_gbp": 40,
+        "cumulative_win": 0,
+        "cumulative_loss": 4
+      }
+    },
+    "Top-3": {
+      "flat": {
+        "bank_gbp": 857.74,
+        "pnl_since_start_gbp": -42.26,
+        "next_stake_gbp": 10,
+        "cumulative_win": 3,
+        "cumulative_loss": 7
+      },
+      "x1_5": {
+        "bank_gbp": 859.83,
+        "pnl_since_start_gbp": -40.17,
+        "next_stake_gbp": 22.5,
+        "cumulative_win": 3,
+        "cumulative_loss": 7
+      },
+      "x2": {
+        "bank_gbp": 858.16,
+        "pnl_since_start_gbp": -41.84,
+        "next_stake_gbp": 40,
+        "cumulative_win": 3,
+        "cumulative_loss": 7
+      }
+    }
+  },
+  "nonfinal_warning": "Top-3 banks and next stakes must be finalized only after Power Steering result verified. Today's 15:40 selection remains pending; DO NOT double-settle in 9pm reconciliation. The full official day result file has not been created here.",
+  "price_note": "Morning locked bookmaker reference quotes; hypothetical 5% illustrative win commission, not matched/executable Betfair prices or verified BSP.",
+  "independent_system_note": "No 2026-11-20 independent-shadow picks.json located by 16:10. GitHub schedule run observed only once at 01:47 UTC for evening mode, a delayed prior-evening invocation. Shadow portfolio still unchanged at £900 each, no independent selections yet. Primary 09:00 task ran but did not write daily picks; 10:01 backup wrote three genuine pre-race picks.",
+  "candidate_d_untouched": true
+}
