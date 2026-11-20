@@ -1,0 +1,104 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK WIN PAPER ONLY)",
+  "date": "2026-11-20",
+  "status": "PRE_RACE_PICKS_LOCKED",
+  "execution_context": "10AM_BACKUP_RUN",
+  "prediction_timestamp_uk": "2026-11-20T10:01:27+00:00",
+  "policy_version": "v2",
+  "primary_failure_alert": "Primary 09:00 task did not write today's picks file by the 10:01 backup check. This is a salvaged 10AM backup, NOT a 9AM selection.",
+  "timestamp_note": "Europe/London time independently checked at 10:01:27 GMT before writing. All selections scheduled at least 2h43m after timestamp. Source pages inspected in this run; bookmaker site quote tick timestamps not independently exposed.",
+  "price_convention": "Sporting Life published Sky Bet fractional quotes observed on 20 Nov at backup run; decimal converted as fractional+1. Illustrative 5% fee on positive profit; NOT Betfair Exchange executable/matched prices, NOT BSP. Source quote tick timestamps unavailable.",
+  "selections": [
+    {
+      "rank": 1,
+      "label": "NAP",
+      "horse": "Current Edition",
+      "race_time_uk": "12:45",
+      "racecourse": "Ascot",
+      "race": "Ascot Promoting Safer Gambling Week National Hunt Maiden Hurdle (GBB Race)",
+      "race_type": "Class 2, 2m 3f 63y, turf, good (good to firm in places), 8 runners",
+      "trainer": "Nigel & Willy Twiston-Davies",
+      "jockey": "Toby McCain-Mitchell",
+      "form": "F/532-22",
+      "reference_price_decimal": 2.75,
+      "reference_fractional": "7/4",
+      "reference_type": "Sporting Life live-show displayed Sky Bet bookmaker quote",
+      "reference_price_source": "https://www.sportinglife.com/racing/racecards/2026-11-20/ascot/live-show/949393/ascot-promoting-safer-gambling-week-national-hunt-maiden-hurdle-gbb-race",
+      "observed_time_uk": "approximately 10:01",
+      "rationale": "Runner-up twice in three hurdles starts, narrowly beaten over approximately 2½m at Huntingdon 23 days ago. Today’s 2m3f trip and stronger expected pace may better use stamina; 119 official rating and clear demonstrated hurdling form.",
+      "main_risks": "Still a maiden; No Way Jay won a bumper and was second over hurdles here, while unexposed point winner Diamonds And Denim is an unknown; good/fast ground and race pace could alter outcome.",
+      "sources": [
+        "https://www.sportinglife.com/racing/racecards/2026-11-20/ascot/racecard/949393/ascot-promoting-safer-gambling-week-national-hunt-maiden-hurdle-gbb-race",
+        "https://www.sportinglife.com/racing/racecards/2026-11-20/ascot/live-show/949393/ascot-promoting-safer-gambling-week-national-hunt-maiden-hurdle-gbb-race"
+      ]
+    },
+    {
+      "rank": 2,
+      "label": "Shadow",
+      "horse": "Power Steering",
+      "race_time_uk": "15:40",
+      "racecourse": "Ascot",
+      "race": "Bet Responsibly With Ladbrokes Open NH Flat Race (GBB Race)",
+      "race_type": "Class 3 bumper, 1m7f157y, turf good (good to firm in places), 7 runners",
+      "trainer": "Harry Fry",
+      "jockey": "J J Burke",
+      "form": "2",
+      "reference_price_decimal": 2,
+      "reference_fractional": "1/1",
+      "reference_type": "Sporting Life live-show displayed Sky Bet bookmaker quote",
+      "reference_price_source": "https://www.sportinglife.com/racing/racecards/2026-11-20/ascot/live-show/949398/bet-responsibly-with-ladbrokes-open-nh-flat-race-gbb-race",
+      "observed_time_uk": "approximately 10:01",
+      "rationale": "Runner-up on debut in a Ballinrobe bumper, since bought by new connections; lightly raced and likely to improve. Runs at around two miles with no jumping obstacles; appears well treated against several newcomers.",
+      "main_risks": "Only one recorded bumper start in current form summary, transfer to new yard and surface/going uncertain; Dennis's Honor has stronger repeated recent runner-up form, and winning point/bumper rivals are not exposed. Published form commentary across sites conflicts on recent historical runs.",
+      "sources": [
+        "https://www.sportinglife.com/racing/racecards/2026-11-20/ascot/live-show/949398/bet-responsibly-with-ladbrokes-open-nh-flat-race-gbb-race",
+        "https://www.sportinglife.com/racing/fast-cards/122667/2026-11-20/ascot"
+      ]
+    },
+    {
+      "rank": 3,
+      "label": "Shadow",
+      "horse": "Push The Limit",
+      "race_time_uk": "13:20",
+      "racecourse": "Ascot",
+      "race": "Bet With Ascot Donation Box Winners Introductory Hurdle (GBB Race)",
+      "race_type": "Class 2, 1m7f157y, turf good (good to firm in places), 6 runners",
+      "trainer": "Dan Skelton",
+      "jockey": "Tristan Durrell",
+      "form": "3",
+      "reference_price_decimal": 2.375,
+      "reference_fractional": "11/8",
+      "reference_type": "Sporting Life live-show displayed Sky Bet bookmaker quote",
+      "reference_price_source": "https://www.sportinglife.com/racing/racecards/2026-11-20/ascot/live-show/949394/bet-with-ascot-donation-box-winners-introductory-hurdle-gbb-race",
+      "observed_time_uk": "approximately 10:01",
+      "rationale": "Smart Flat form for Ralph Beckett, third of 13 on hurdles debut at Carlisle 29 days ago; may improve second time over hurdles on a less stiff course. Carries 11st2lb versus two previous hurdle winners at 11st7lb.",
+      "main_risks": "Hurdles debut was underwhelming despite market support, and Spanish Stroll and Without Burlington have already won over hurdles; Flat ability may not fully transfer.",
+      "sources": [
+        "https://www.sportinglife.com/racing/racecards/2026-11-20/ascot/racecard/949394/bet-with-ascot-donation-box-winners-introductory-hurdle-gbb-race/",
+        "https://www.sportinglife.com/racing/racecards/2026-11-20/ascot/live-show/949394/bet-with-ascot-donation-box-winners-introductory-hurdle-gbb-race"
+      ]
+    }
+  ],
+  "portfolios": {
+    "nap_only": [
+      "Current Edition"
+    ],
+    "top3": [
+      "Current Edition",
+      "Push The Limit",
+      "Power Steering"
+    ]
+  },
+  "chronological_race_order": [
+    "Current Edition 12:45",
+    "Push The Limit 13:20",
+    "Power Steering 15:40"
+  ],
+  "notes": [
+    "Primary daily picks missing at 10:01 backup check; this does not imply the primary task is disabled, only that no journal entry was found.",
+    "Independently reasoned form-first choices, not copied blindly from a tipster ranking; strong opposing candidates and limitations stated.",
+    "No real bets; hypothetical bookmaker-reference quote only.",
+    "Immutable pick list. No change to historical records or Candidate D.",
+    "Do not settle before officially confirmed results; check nonrunners and voids at settlement."
+  ]
+}
