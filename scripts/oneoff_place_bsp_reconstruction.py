@@ -26,4 +26,17 @@ def main():
     for date in DATES:
         try:fetch(date)
         except Exception as e:print("SOURCE_ERROR",date,type(e).__name__,str(e))
+    urls=[
+        "https://stablewhispers.co.uk/fast-results/2026-11-16/wolverhampton/",
+        "https://stablewhispers.co.uk/fast-results/2026-11-18/ffos-las/",
+        "https://stablewhispers.co.uk/fast-results/2026-11-19/newcastle-aw/",
+        "https://stablewhispers.co.uk/fast-results/2026-11-20/ascot/"
+    ]
+    for url in urls:
+        try:
+            req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
+            with urllib.request.urlopen(req,timeout=30) as response:
+                raw=response.read()
+                print("ALTERNATIVE",url,"code",response.status,"length",len(raw),"excerpt",raw.decode("utf8")[:140].replace("\\n"," "))
+        except Exception as e:print("ALTERNATIVE_ERROR",url,type(e).__name__,str(e))
 if __name__=="__main__":main()
