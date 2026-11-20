@@ -1,7 +1,7 @@
 {
   "experiment": "Strongest Horse Bets — Progressive Staking",
-  "as_of_uk": "2026-11-20 morning reconciliation of 2026-11-19 results",
-  "last_day": "2026-11-19",
+  "as_of_uk": "2026-11-20T10:01:27+00:00 backup selection journal",
+  "last_day": "2026-11-20",
   "results_file": "2026-11-19-results.json",
   "unsettled": [],
   "nap_only": {
@@ -32,7 +32,7 @@
       "next_stake_gbp": 10
     }
   },
-  "note": "19 Nov results already existed in 2026-11-19-results.json, so no duplicate settlement written. Historical 16/17 Nov and all pick journals untouched. Morning of 20 Nov: no 20 Nov picks file found at time checked; no new results created. Candidate D untouched.",
+  "note": "20 Nov primary 09:00 picks journal missing at backup check; immutable backup picks saved at 10:01 UK. Existing settled bank balances and results unchanged; no Candidate D changes.",
   "prior_results_file": "2026-11-17-results.json",
   "result_crosscheck_pending": [],
   "selection_policy": {
@@ -41,7 +41,7 @@
     "rules_file": "strongest-horse-back-paper/selection-policy-v2-2026-11-18.md",
     "change": "Form-first pre-race picks; published reference prices permitted, Betfair executable price and numeric fair probability no longer prerequisites. Primary monetary simulation uses verified pre-race quoted reference price with illustrative 5% fee, not actual exchange fills; verified BSP is separate secondary series. Do not retroactively modify 16/17 Nov picks."
   },
-  "picks_file": "2026-11-19-picks.json",
+  "picks_file": "2026-11-20-picks.json",
   "secondary_bsp_status": "No verified Betfair BSP for 19 Nov; secondary proxy unavailable. Do not substitute published SP.",
   "performance_progress": {
     "nap_only_settled": 3,
@@ -65,5 +65,9 @@
       "https://www.racingpost.com/results/1353/newcastle-aw/2026-11-19/931779/"
     ],
     "price_caveat": "Reference quotes 2.75 and 2.50 were stored in pre-off journal timestamped 14:29:14 UK; independent source-side quote tick timestamps not verified. Existing ledger is illustrative and conditional, not proof of available bookmaker price or Betfair fill."
-  }
+  },
+  "last_backup_check_uk": "2026-11-20T10:01:27+00:00",
+  "morning_pick_status": "10AM_BACKUP_RUN: primary 09:00 journal missing at 10:01, backup picks locked",
+  "backup_alert_required": true,
+  "backup_picks_count": 3
 }
