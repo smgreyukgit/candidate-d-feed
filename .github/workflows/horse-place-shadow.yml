@@ -44,12 +44,11 @@ jobs:
           GITHUB_EVENT: ${{ github.event_name }}
           REQUESTED_MODE: ${{ inputs.mode }}
         run: |
-          if [ "$GITHUB_EVENT" = 'schedule' ]; then
-            echo 'mode=run' >> "$GITHUB_OUTPUT"
-          elif [ "$GITHUB_EVENT" = 'workflow_dispatch' ]; then
+          if [ "$GITHUB_EVENT" = 'workflow_dispatch' ]; then
             echo "mode=${REQUESTED_MODE:-smoke}" >> "$GITHUB_OUTPUT"
           else
-            echo 'mode=smoke' >> "$GITHUB_OUTPUT"
+            # Reconcile on schedule or after a code fix; only pre-race locked picks.
+            echo 'mode=run' >> "$GITHUB_OUTPUT"
           fi
       - name: Check official results and recalculate paper PLACE comparison
         run: python -m independent_horse.place_shadow '${{ steps.how.outputs.mode }}'
