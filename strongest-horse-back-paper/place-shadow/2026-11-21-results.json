@@ -11,30 +11,40 @@
       "rank": 1,
       "racecourse": "Ascot",
       "race_time_uk": "12:20",
-      "locked_win_reference_decimal": 1.8333333333333333,
+      "locked_win_reference_decimal": "1.8333333333333333",
       "original_lock_time_uk": "2026-11-21T09:04:40+00:00",
-      "status": "UNPRICED_FORECAST",
-      "placing": "UNPLACED",
+      "status": "UNPLACED",
       "position": null,
       "starters": 6,
+      "handicap": false,
       "places_paid": 2,
       "fraction": "0.25",
-      "source": "https://www.sportinglife.com/racing/results/2026-11-21/ascot/949617/ascot-shared-ownership-weekend-novices-hurdle-gbb-race"
+      "terms_basis": "5-7 starters",
+      "illustrative_place_reference_decimal": "1.208333333333333325",
+      "stake_gbp": "10",
+      "pnl_gbp": "-10",
+      "source": "https://www.sportinglife.com/racing/results/2026-11-21/ascot/949617/ascot-shared-ownership-weekend-novices-hurdle-gbb-race",
+      "result_page_sha256": "c1d0c13cf82faf6753b8f3eeb7bc024b9ad3d63a6de202ebc39370778b5a7603"
     },
     {
       "horse": "Grey Dawning",
       "rank": 2,
       "racecourse": "Haydock",
       "race_time_uk": "15:00",
-      "locked_win_reference_decimal": 2,
+      "locked_win_reference_decimal": "2",
       "original_lock_time_uk": "2026-11-21T09:04:40+00:00",
-      "status": "UNPRICED_FORECAST",
-      "placing": "PLACED",
+      "status": "PLACED",
       "position": 1,
       "starters": 7,
+      "handicap": false,
       "places_paid": 2,
       "fraction": "0.25",
-      "source": "https://www.sportinglife.com/racing/results/2026-11-21/haydock/948036/betfair-chase-grade-1-registered-as-the-lancashire-chase-gbb-race"
+      "terms_basis": "5-7 starters",
+      "illustrative_place_reference_decimal": "1.25",
+      "stake_gbp": "10",
+      "pnl_gbp": "2.38",
+      "source": "https://www.sportinglife.com/racing/results/2026-11-21/haydock/948036/betfair-chase-grade-1-registered-as-the-lancashire-chase-gbb-race",
+      "result_page_sha256": "73abc199fc77f0d483fa949601113e9f8302c46a33fdda248a9baba036f177c2"
     }
   ]
 }
