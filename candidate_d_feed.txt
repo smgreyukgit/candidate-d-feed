@@ -228,9 +228,14 @@ R P Mcmurphy BSP 6.42 LOSER Wolverhampton 16th Nov
 2026-11-18
 Drop Kick BSP 5.80 LOSER Hexham 18th Nov
 Devilsrollthedice BSP 6.00 LOSER Ffos Las 18th Nov
-Downloading dwbfpricesukwin20112026.csv
-Downloading dwbfpricesirewin20112026.csv
 
 2026-11-19
 Olive Noir BSP 5.40 LOSER Warwick 19th Nov
 Liquid Cooled BSP 5.80 WINNER Newcastle 19th Nov
+Downloading dwbfpricesukwin21112026.csv
+Downloading dwbfpricesirewin21112026.csv
+
+2026-11-20
+Anytrixwilldo BSP 5.70 LOSER Catterick 20th Nov
+Flying Fortress BSP 6.00 WINNER Dundalk 20th Nov
+Showyoutheropes BSP 5.94 LOSER Dundalk 20th Nov
