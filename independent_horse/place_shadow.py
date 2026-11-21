@@ -95,7 +95,7 @@ def result(pick,day,card):
     # At a dead-heat on the place boundary, payoffs may be reduced.
     if pos==places["places"] and sum(0<position(x)<=pos for x in active)>places["places"]:
         raise ValueError("Dead heat at paid-place boundary; manual settlement required")
-    win=pick.get("reference_price_decimal")
+    win=pick.get("locked_win_reference_decimal")
     try:win=Decimal(str(win))
     except Exception:win=None
     if win is None or not win.is_finite() or win<=1:
@@ -137,7 +137,9 @@ def calculate(now):
         if older<0:continue
         path=OUT/f"{day}-results.json"
         prev=json.loads(path.read_text("utf-8")) if path.exists() else None
-        if prev and all(s.get("status") in {"PLACED","UNPLACED","INELIGIBLE","VOID","UNPRICED_FORECAST"} for s in prev.get("selections",[])):
+        if prev and all(s.get("status") in {"PLACED","UNPLACED","INELIGIBLE","VOID"} or
+                (s.get("status")=="UNPRICED_FORECAST" and s.get("locked_win_reference_decimal") is None)
+                for s in prev.get("selections",[])):
             continue
         selection_rows=stamped_picks(pickset)
         if not selection_rows:continue
