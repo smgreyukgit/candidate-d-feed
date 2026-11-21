@@ -1,0 +1,247 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking PAPER ONLY",
+  "date": "2026-11-20",
+  "status": "SETTLED",
+  "source_picks": "2026-11-20-picks.json",
+  "settlement_research_date_uk": "2026-11-21",
+  "price_basis": "Original immutable 20 Nov 10:01:27 UK Sporting Life Sky Bet published reference quotes; hypothetical fixed-price WIN returns, 5% illustrative commission on positive profit; not Betfair matched or verified BSP.",
+  "results": [
+    {
+      "horse": "Current Edition",
+      "rank": 1,
+      "time": "12:45",
+      "position": 3,
+      "outcome": "LOSS",
+      "price": 2.75,
+      "source": "https://www.horseracing.net/results/ascot/20-11-26",
+      "verified_betfair_bsp": null
+    },
+    {
+      "horse": "Push The Limit",
+      "rank": 3,
+      "time": "13:20",
+      "position": 3,
+      "outcome": "LOSS",
+      "price": 2.375,
+      "source": "https://www.horseracing.net/results/ascot/20-11-26",
+      "verified_betfair_bsp": null
+    },
+    {
+      "horse": "Power Steering",
+      "rank": 2,
+      "time": "15:40",
+      "position": 1,
+      "outcome": "WIN",
+      "price": 2,
+      "source": "https://www.horseracing.net/results/ascot/20-11-26",
+      "verified_betfair_bsp": null
+    }
+  ],
+  "portfolios": {
+    "nap_only": {
+      "flat": {
+        "bank_gbp": 860,
+        "next_stake_gbp": 10,
+        "daily_pnl_gbp": -10,
+        "daily_staked_gbp": 10,
+        "daily_roi_pct": -100,
+        "daily_max_drawdown_from_opening_gbp": 10,
+        "daily_max_loss_streak": 1,
+        "ledger": [
+          {
+            "horse": "Current Edition",
+            "off_uk": "12:45",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 2.75,
+            "result": "LOSS",
+            "pnl_gbp": -10,
+            "bank_after_gbp": 860,
+            "next_stake_gbp": 10
+          }
+        ]
+      },
+      "x1_5": {
+        "bank_gbp": 822.5,
+        "next_stake_gbp": 30,
+        "daily_pnl_gbp": -30,
+        "daily_staked_gbp": 30,
+        "daily_roi_pct": -100,
+        "daily_max_drawdown_from_opening_gbp": 30,
+        "daily_max_loss_streak": 1,
+        "ledger": [
+          {
+            "horse": "Current Edition",
+            "off_uk": "12:45",
+            "stake_gbp": 30,
+            "locked_reference_decimal": 2.75,
+            "result": "LOSS",
+            "pnl_gbp": -30,
+            "bank_after_gbp": 822.5,
+            "next_stake_gbp": 30
+          }
+        ]
+      },
+      "x2": {
+        "bank_gbp": 790,
+        "next_stake_gbp": 40,
+        "daily_pnl_gbp": -40,
+        "daily_staked_gbp": 40,
+        "daily_roi_pct": -100,
+        "daily_max_drawdown_from_opening_gbp": 40,
+        "daily_max_loss_streak": 1,
+        "ledger": [
+          {
+            "horse": "Current Edition",
+            "off_uk": "12:45",
+            "stake_gbp": 40,
+            "locked_reference_decimal": 2.75,
+            "result": "LOSS",
+            "pnl_gbp": -40,
+            "bank_after_gbp": 790,
+            "next_stake_gbp": 40
+          }
+        ]
+      }
+    },
+    "top3": {
+      "flat": {
+        "bank_gbp": 867.24,
+        "next_stake_gbp": 10,
+        "daily_pnl_gbp": -10.5,
+        "daily_staked_gbp": 30,
+        "daily_roi_pct": -35,
+        "daily_max_drawdown_from_opening_gbp": 20,
+        "daily_max_loss_streak": 2,
+        "ledger": [
+          {
+            "horse": "Current Edition",
+            "off_uk": "12:45",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 2.75,
+            "result": "LOSS",
+            "pnl_gbp": -10,
+            "bank_after_gbp": 867.74,
+            "next_stake_gbp": 10
+          },
+          {
+            "horse": "Push The Limit",
+            "off_uk": "13:20",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 2.375,
+            "result": "LOSS",
+            "pnl_gbp": -10,
+            "bank_after_gbp": 857.74,
+            "next_stake_gbp": 10
+          },
+          {
+            "horse": "Power Steering",
+            "off_uk": "15:40",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 2,
+            "result": "WIN",
+            "pnl_gbp": 9.5,
+            "bank_after_gbp": 867.24,
+            "next_stake_gbp": 10
+          }
+        ]
+      },
+      "x1_5": {
+        "bank_gbp": 881.21,
+        "next_stake_gbp": 10,
+        "daily_pnl_gbp": -3.62,
+        "daily_staked_gbp": 47.5,
+        "daily_roi_pct": -7.62,
+        "daily_max_drawdown_from_opening_gbp": 25,
+        "daily_max_loss_streak": 2,
+        "ledger": [
+          {
+            "horse": "Current Edition",
+            "off_uk": "12:45",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 2.75,
+            "result": "LOSS",
+            "pnl_gbp": -10,
+            "bank_after_gbp": 874.83,
+            "next_stake_gbp": 15
+          },
+          {
+            "horse": "Push The Limit",
+            "off_uk": "13:20",
+            "stake_gbp": 15,
+            "locked_reference_decimal": 2.375,
+            "result": "LOSS",
+            "pnl_gbp": -15,
+            "bank_after_gbp": 859.83,
+            "next_stake_gbp": 22.5
+          },
+          {
+            "horse": "Power Steering",
+            "off_uk": "15:40",
+            "stake_gbp": 22.5,
+            "locked_reference_decimal": 2,
+            "result": "WIN",
+            "pnl_gbp": 21.38,
+            "bank_after_gbp": 881.21,
+            "next_stake_gbp": 10
+          }
+        ]
+      },
+      "x2": {
+        "bank_gbp": 896.16,
+        "next_stake_gbp": 10,
+        "daily_pnl_gbp": 8,
+        "daily_staked_gbp": 70,
+        "daily_roi_pct": 11.43,
+        "daily_max_drawdown_from_opening_gbp": 30,
+        "daily_max_loss_streak": 2,
+        "ledger": [
+          {
+            "horse": "Current Edition",
+            "off_uk": "12:45",
+            "stake_gbp": 10,
+            "locked_reference_decimal": 2.75,
+            "result": "LOSS",
+            "pnl_gbp": -10,
+            "bank_after_gbp": 878.16,
+            "next_stake_gbp": 20
+          },
+          {
+            "horse": "Push The Limit",
+            "off_uk": "13:20",
+            "stake_gbp": 20,
+            "locked_reference_decimal": 2.375,
+            "result": "LOSS",
+            "pnl_gbp": -20,
+            "bank_after_gbp": 858.16,
+            "next_stake_gbp": 40
+          },
+          {
+            "horse": "Power Steering",
+            "off_uk": "15:40",
+            "stake_gbp": 40,
+            "locked_reference_decimal": 2,
+            "result": "WIN",
+            "pnl_gbp": 38,
+            "bank_after_gbp": 896.16,
+            "next_stake_gbp": 10
+          }
+        ]
+      }
+    }
+  },
+  "selection_counts": {
+    "nap_only": {
+      "wins": 0,
+      "losses": 1
+    },
+    "top3": {
+      "wins": 1,
+      "losses": 2
+    }
+  },
+  "notes": [
+    "Chronological settlement 12:45,13:20,15:40 (not selection ranking).",
+    "All three original picks have pre-off reference prices. No real bets.",
+    "Do not edit original 20 Nov picks or Candidate D."
+  ]
+}
