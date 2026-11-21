@@ -1,38 +1,41 @@
 {
   "experiment": "Strongest Horse Bets — Progressive Staking",
-  "as_of_uk": "2026-11-20T10:01:27+00:00 backup selection journal",
-  "last_day": "2026-11-20",
-  "results_file": "2026-11-19-results.json",
-  "unsettled": [],
+  "as_of_uk": "2026-11-21T09:04:40+00:00",
+  "last_day": "2026-11-21",
+  "results_file": "2026-11-20-results.json",
+  "unsettled": [
+    "2026-11-21 The Walk Ascot 12:20",
+    "2026-11-21 Grey Dawning Haydock 15:00"
+  ],
   "nap_only": {
     "flat": {
-      "bank_gbp": 870,
+      "bank_gbp": 860,
       "next_stake_gbp": 10
     },
     "x1_5": {
-      "bank_gbp": 852.5,
+      "bank_gbp": 822.5,
       "next_stake_gbp": 30
     },
     "x2": {
-      "bank_gbp": 830,
+      "bank_gbp": 790,
       "next_stake_gbp": 40
     }
   },
   "top3": {
     "flat": {
-      "bank_gbp": 877.74,
+      "bank_gbp": 867.24,
       "next_stake_gbp": 10
     },
     "x1_5": {
-      "bank_gbp": 884.83,
+      "bank_gbp": 881.21,
       "next_stake_gbp": 10
     },
     "x2": {
-      "bank_gbp": 888.16,
+      "bank_gbp": 896.16,
       "next_stake_gbp": 10
     }
   },
-  "note": "20 Nov primary 09:00 picks journal missing at backup check; immutable backup picks saved at 10:01 UK. Existing settled bank balances and results unchanged; no Candidate D changes.",
+  "note": "20 Nov settled from immutable 10:01 backup picks: Current Edition LOSS, Push The Limit LOSS, Power Steering WIN; chronological quote-based paper simulation. 21 Nov 09:04:40 UK pre-race picks The Walk NAP and Grey Dawning shadow locked. No Betfair verified BSP or actual bets. Candidate D untouched.",
   "prior_results_file": "2026-11-17-results.json",
   "result_crosscheck_pending": [],
   "selection_policy": {
@@ -41,33 +44,74 @@
     "rules_file": "strongest-horse-back-paper/selection-policy-v2-2026-11-18.md",
     "change": "Form-first pre-race picks; published reference prices permitted, Betfair executable price and numeric fair probability no longer prerequisites. Primary monetary simulation uses verified pre-race quoted reference price with illustrative 5% fee, not actual exchange fills; verified BSP is separate secondary series. Do not retroactively modify 16/17 Nov picks."
   },
-  "picks_file": "2026-11-20-picks.json",
-  "secondary_bsp_status": "No verified Betfair BSP for 19 Nov; secondary proxy unavailable. Do not substitute published SP.",
+  "picks_file": "2026-11-21-picks.json",
+  "secondary_bsp_status": "No Betfair-direct verified BSP for 20 or 21 Nov; primary uses pre-race bookmaker/reference quotes, never substituted BSP.",
   "performance_progress": {
-    "nap_only_settled": 3,
-    "top3_settled": 8,
+    "nap_only_settled": 4,
+    "top3_settled": 11,
     "target": 200,
     "nap_only_wins": 0,
-    "nap_only_losses": 3,
-    "top3_wins": 3,
-    "top3_losses": 5,
+    "nap_only_losses": 4,
+    "top3_wins": 4,
+    "top3_losses": 7,
     "forecast_only": 0,
-    "unsettled": 0
+    "unsettled": 2,
+    "priced_picks_today": 2
   },
   "next_backup_check_uk": "2026-11-20T10:00:00+00:00",
   "task_status_note": "Primary prediction and evening results tasks re-enabled 19 Nov 2026; reason previously disabled unknown.",
   "last_results_verification": {
-    "date": "2026-11-19",
-    "nap": "Big Money 2nd LOSS",
-    "shadow": "High Threshold 1st WIN",
-    "sources": [
-      "https://www.racingpost.com/results/1353/newcastle-aw/2026-11-19/931780/",
-      "https://www.racingpost.com/results/1353/newcastle-aw/2026-11-19/931779/"
+    "date": "2026-11-20",
+    "results": [
+      "Current Edition 3rd LOSS",
+      "Push The Limit 3rd LOSS",
+      "Power Steering 1st WIN"
     ],
-    "price_caveat": "Reference quotes 2.75 and 2.50 were stored in pre-off journal timestamped 14:29:14 UK; independent source-side quote tick timestamps not verified. Existing ledger is illustrative and conditional, not proof of available bookmaker price or Betfair fill."
+    "source": "https://www.horseracing.net/results/ascot/20-11-26",
+    "price_source": "strongest-horse-back-paper/2026-11-20-picks.json",
+    "quote_caveat": "Third-party published Sky Bet bookmaker quotes observed before racing, not matched Betfair prices"
   },
   "last_backup_check_uk": "2026-11-20T10:01:27+00:00",
-  "morning_pick_status": "10AM_BACKUP_RUN: primary 09:00 journal missing at 10:01, backup picks locked",
-  "backup_alert_required": true,
-  "backup_picks_count": 3
+  "cumulative_accounts": {
+    "nap_only": {
+      "flat": {
+        "total_staked_gbp": 40,
+        "roi_pct": -100,
+        "max_drawdown_gbp": 40,
+        "loss_streak": 4
+      },
+      "x1_5": {
+        "total_staked_gbp": 77.5,
+        "roi_pct": -100,
+        "max_drawdown_gbp": 77.5,
+        "loss_streak": 4
+      },
+      "x2": {
+        "total_staked_gbp": 110,
+        "roi_pct": -100,
+        "max_drawdown_gbp": 110,
+        "loss_streak": 4
+      }
+    },
+    "top3": {
+      "flat": {
+        "total_staked_gbp": 110,
+        "roi_pct": -29.78,
+        "max_drawdown_gbp": 42.26,
+        "loss_streak": 0
+      },
+      "x1_5": {
+        "total_staked_gbp": 170,
+        "roi_pct": -11.05,
+        "max_drawdown_gbp": 47.5,
+        "loss_streak": 0
+      },
+      "x2": {
+        "total_staked_gbp": 230,
+        "roi_pct": -1.67,
+        "max_drawdown_gbp": 70,
+        "loss_streak": 0
+      }
+    }
+  }
 }
