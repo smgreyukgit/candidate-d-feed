@@ -20,7 +20,7 @@ def fake_race(starters=8,handicap=False,horse_position=3):
 class TestPlace(unittest.TestCase):
     def setUp(self):
         self.pick={"horse":"Chosen","racecourse":"Ascot","race_time_uk":"14:30",
-                   "reference_price_decimal":2.75}
+                   "locked_win_reference_decimal":2.75}
         self.card={"race_id":"123","date":D,"result_url":"https://example.test/r",
                    "course":"Ascot","off":"14:30"}
     def test_terms(self):
