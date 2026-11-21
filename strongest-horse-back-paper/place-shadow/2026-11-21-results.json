@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-21",
+  "experiment": "Parallel £10 flat PLACE paper comparison",
+  "locked_primary_picks": "2026-11-21-picks.json",
+  "price_model": "Standard EW place-fraction of historical locked bookmaker WIN reference; synthetic PLACE-ONLY price, NOT exchange price, not an available stand-alone wager",
+  "commission_on_positive_profit": "5% illustrative",
+  "selection_count": 2,
+  "selections": [
+    {
+      "horse": "The Walk",
+      "rank": 1,
+      "racecourse": "Ascot",
+      "race_time_uk": "12:20",
+      "locked_win_reference_decimal": 1.8333333333333333,
+      "original_lock_time_uk": "2026-11-21T09:04:40+00:00",
+      "status": "UNPRICED_FORECAST",
+      "placing": "UNPLACED",
+      "position": null,
+      "starters": 6,
+      "places_paid": 2,
+      "fraction": "0.25",
+      "source": "https://www.sportinglife.com/racing/results/2026-11-21/ascot/949617/ascot-shared-ownership-weekend-novices-hurdle-gbb-race"
+    },
+    {
+      "horse": "Grey Dawning",
+      "rank": 2,
+      "racecourse": "Haydock",
+      "race_time_uk": "15:00",
+      "locked_win_reference_decimal": 2,
+      "original_lock_time_uk": "2026-11-21T09:04:40+00:00",
+      "status": "UNPRICED_FORECAST",
+      "placing": "PLACED",
+      "position": 1,
+      "starters": 7,
+      "places_paid": 2,
+      "fraction": "0.25",
+      "source": "https://www.sportinglife.com/racing/results/2026-11-21/haydock/948036/betfair-chase-grade-1-registered-as-the-lancashire-chase-gbb-race"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "model": "synthetic-place-only-v1",
   "forward_start_date": "2026-11-21",
-  "as_of_uk": "2026-11-21T01:39:53+00:00",
+  "as_of_uk": "2026-11-21T18:08:10+00:00",
   "portfolios": {
     "NAP-only": {
       "bank_gbp": "900.00",
@@ -13,7 +13,7 @@
       "staked_gbp": "0",
       "roi_pct": null,
       "pending": 0,
-      "unpriced": 0,
+      "unpriced": 1,
       "ineligible_or_void": 0
     },
     "Top-three": {
@@ -26,7 +26,7 @@
       "staked_gbp": "0",
       "roi_pct": null,
       "pending": 0,
-      "unpriced": 0,
+      "unpriced": 2,
       "ineligible_or_void": 0
     }
   },
