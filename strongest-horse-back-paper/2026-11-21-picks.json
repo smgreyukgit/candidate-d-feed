@@ -1,0 +1,114 @@
+{
+  "experiment": "Strongest Horse Bets — Progressive Staking (BACK WIN PAPER ONLY)",
+  "date": "2026-11-21",
+  "status": "PRE_RACE_PICKS_LOCKED",
+  "prediction_timestamp_uk": "2026-11-21T09:04:40+00:00",
+  "timestamp_basis": "Independent local-time verification in this run; Europe/London GMT",
+  "policy_version": "v2",
+  "reference_price_convention": "Pre-off published bookmaker odds comparison snapshot (horseRacing.net), hypothetical fixed-reference BACK-to-WIN, 5% illustrative commission on positive profit; neither Betfair matched prices nor verified BSP.",
+  "selections": [
+    {
+      "rank": 1,
+      "label": "NAP",
+      "horse": "The Walk",
+      "racecourse": "Ascot",
+      "race_time_uk": "12:20",
+      "race": "Ascot Shared Ownership Weekend Novices' Hurdle (GBB Race)",
+      "race_type": "Class 2 novices' hurdle, turf, 2m5f146y, good (good to firm in places), 7 runners",
+      "trainer": "Joe Tizzard",
+      "jockey": "Dylan Johnston",
+      "form": "10-1",
+      "weight": "11st 5lb",
+      "reference_fractional": "5/6",
+      "reference_price_decimal": 1.8333333333333333,
+      "reference_type": "HorseRacing.net odds-comparison bookmaker quote, provider-specific bookmaker not independently resolved",
+      "reference_price_source": "https://www.horseracing.net/ascot/21-11-26/12%3A20",
+      "reference_source_quote_asof_uk": "2026-11-21T09:02:00+00:00",
+      "reference_observed_uk": "2026-11-21T09:04:40+00:00",
+      "rationale": "Won an Ascot bumper last November and returned to win a Ffos Las 2m soft-ground novice hurdle 30 days ago, finishing strongly; course experience and successful hurdle debut are positives. Trainer Joe Tizzard and rider Dylan Johnston named, and equal 11st5lb to main opponent Katarcice.",
+      "main_risks": "Significant step up from 2m to 2m5f and switch from soft to good/good-to-firm; Katarcice has proven 2m5f good-ground handicap form and recent Warwick second, while Vedivici is unexposed.",
+      "sources": [
+        "https://www.horseracing.net/ascot/21-11-26/12%3A20",
+        "https://horse.bet/uk/racing-data/racing/ascot/2026-11-21/"
+      ]
+    },
+    {
+      "rank": 2,
+      "label": "Shadow",
+      "horse": "Grey Dawning",
+      "racecourse": "Haydock",
+      "race_time_uk": "15:00",
+      "race": "Betfair Chase (Grade 1)",
+      "race_type": "Class 1 Grade 1 chase, turf, 3m1f125y, good (good to soft in places), 7 runners",
+      "trainer": "Dan Skelton",
+      "jockey": "Harry Skelton",
+      "form": "/1341-",
+      "weight": "11st 10lb",
+      "official_rating": 166,
+      "reference_fractional": "1/1",
+      "reference_price_decimal": 2,
+      "reference_type": "HorseRacing.net odds-comparison bookmaker quote, provider-specific bookmaker not independently resolved",
+      "reference_price_source": "https://www.horseracing.net/haydock/21-11-26/15%3A00",
+      "reference_source_quote_asof_uk": "2026-11-21T08:03:00+00:00",
+      "reference_observed_uk": "2026-11-21T09:04:40+00:00",
+      "rationale": "Won the same Grade 1 Haydock race on seasonal reappearance last year and was subsequently successful in Grade 1 company at Aintree; proven course and trip. Strong RPR 175 and topspeed 170, partnered by Harry Skelton, against broadly equal 11st10lb rivals.",
+      "main_risks": "Unproven on today's good ground and returns after 225 days; Affordale Fury has Grade 1 winning form (OR 167) and Jagwar is progressive, so no certainty.",
+      "sources": [
+        "https://www.horseracing.net/haydock/21-11-26/15%3A00",
+        "https://www.ladbrokes.com/en/news/dan-skelton-saturday-runners-blog-november-21-2026/"
+      ]
+    }
+  ],
+  "why_no_third": "Two independently supported form selections with pre-off quoted reference prices; additional short-priced favourites and more uncertain races not forced into a third pick.",
+  "portfolios": {
+    "nap_only": [
+      "The Walk"
+    ],
+    "top3": [
+      "The Walk",
+      "Grey Dawning"
+    ]
+  },
+  "chronological_race_order": [
+    "The Walk 12:20",
+    "Grey Dawning 15:00"
+  ],
+  "initial_pre_today_bank_state": {
+    "nap_only": {
+      "flat": {
+        "bank_gbp": 860,
+        "next_stake_gbp": 10
+      },
+      "x1_5": {
+        "bank_gbp": 822.5,
+        "next_stake_gbp": 30
+      },
+      "x2": {
+        "bank_gbp": 790,
+        "next_stake_gbp": 40
+      }
+    },
+    "top3": {
+      "flat": {
+        "bank_gbp": 867.24,
+        "next_stake_gbp": 10
+      },
+      "x1_5": {
+        "bank_gbp": 881.21,
+        "next_stake_gbp": 10
+      },
+      "x2": {
+        "bank_gbp": 896.16,
+        "next_stake_gbp": 10
+      }
+    }
+  },
+  "previous_results_file": "2026-11-20-results.json",
+  "secondary_verified_bsp": null,
+  "no_real_bets": true,
+  "notes": [
+    "No prior 21 Nov picks file found before research and write.",
+    "Both price snapshots predate the independently verified pick timestamp and race off times; odds are third-party bookmaker comparison not exchange matched or official BSP.",
+    "Locked picks immutable; subsequent results separate; no Candidate D changes."
+  ]
+}
