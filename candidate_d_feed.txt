@@ -232,10 +232,14 @@ Devilsrollthedice BSP 6.00 LOSER Ffos Las 18th Nov
 2026-11-19
 Olive Noir BSP 5.40 LOSER Warwick 19th Nov
 Liquid Cooled BSP 5.80 WINNER Newcastle 19th Nov
-Downloading dwbfpricesukwin21112026.csv
-Downloading dwbfpricesirewin21112026.csv
 
 2026-11-20
 Anytrixwilldo BSP 5.70 LOSER Catterick 20th Nov
 Flying Fortress BSP 6.00 WINNER Dundalk 20th Nov
 Showyoutheropes BSP 5.94 LOSER Dundalk 20th Nov
+Downloading dwbfpricesukwin22112026.csv
+Downloading dwbfpricesirewin22112026.csv
+
+2026-11-21
+Oracle Mission BSP 5.70 LOSER Lingfield 21st Nov
+Educating Rita BSP 5.56 LOSER Newcastle 21st Nov
