@@ -1,7 +1,7 @@
 {
   "model": "synthetic-place-only-v1",
   "forward_start_date": "2026-11-21",
-  "as_of_uk": "2026-11-23T01:02:53+00:00",
+  "as_of_uk": "2026-11-23T22:50:52+00:00",
   "portfolios": {
     "NAP-only": {
       "bank_gbp": "890.00",
