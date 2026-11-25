@@ -244,11 +244,16 @@ Educating Rita BSP 5.56 LOSER Newcastle 21st Nov
 
 2026-11-22
 Mister Mojito BSP 5.55 LOSER Lingfield 22nd Nov
-Downloading dwbfpricesukwin24112026.csv
-Downloading dwbfpricesirewin24112026.csv
 
 2026-11-23
 Good Karma BSP 5.50 LOSER Wolverhampton 23rd Nov
 Encore BSP 5.40 LOSER Newcastle 23rd Nov
 Top Guy BSP 5.40 WINNER Bangor-on-Dee 23rd Nov
 Too Much BSP 6.19 LOSER Newcastle 23rd Nov
+Downloading dwbfpricesukwin25112026.csv
+Downloading dwbfpricesirewin25112026.csv
+
+2026-11-24
+North View BSP 5.53 LOSER Lingfield 24th Nov
+Prides Queen BSP 5.28 LOSER Lingfield 24th Nov
+The Ducks Walk BSP 5.40 LOSER Tramore 24th Nov
