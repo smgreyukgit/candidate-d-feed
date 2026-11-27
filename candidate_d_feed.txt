@@ -255,9 +255,13 @@ Too Much BSP 6.19 LOSER Newcastle 23rd Nov
 North View BSP 5.53 LOSER Lingfield 24th Nov
 Prides Queen BSP 5.28 LOSER Lingfield 24th Nov
 The Ducks Walk BSP 5.40 LOSER Tramore 24th Nov
-Downloading dwbfpricesukwin26112026.csv
-Downloading dwbfpricesirewin26112026.csv
 
 2026-11-25
 Art Gallery BSP 5.63 LOSER Dundalk 25th Nov
 Comfort Line BSP 5.80 LOSER Dundalk 25th Nov
+Downloading dwbfpricesukwin27112026.csv
+Downloading dwbfpricesirewin27112026.csv
+
+2026-11-26
+Henry Tudor BSP 5.60 LOSER Chelmsford City 26th Nov
+Jukebox Deddy BSP 6.20 LOSER Market Rasen 26th Nov
