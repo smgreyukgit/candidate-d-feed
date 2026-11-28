@@ -259,9 +259,13 @@ The Ducks Walk BSP 5.40 LOSER Tramore 24th Nov
 2026-11-25
 Art Gallery BSP 5.63 LOSER Dundalk 25th Nov
 Comfort Line BSP 5.80 LOSER Dundalk 25th Nov
-Downloading dwbfpricesukwin27112026.csv
-Downloading dwbfpricesirewin27112026.csv
 
 2026-11-26
 Henry Tudor BSP 5.60 LOSER Chelmsford City 26th Nov
 Jukebox Deddy BSP 6.20 LOSER Market Rasen 26th Nov
+Downloading dwbfpricesukwin28112026.csv
+Downloading dwbfpricesirewin28112026.csv
+
+2026-11-27
+Spec Of Light BSP 6.08 LOSER Southwell 27th Nov
+Carrigans Grove BSP 6.00 LOSER Dundalk 27th Nov
